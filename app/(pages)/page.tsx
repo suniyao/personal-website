@@ -1,6 +1,5 @@
 import { pixel } from "@/ui/fonts";
 import PopUp from "@/components/PopUp";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -20,7 +19,7 @@ export default function Home() {
         {/* Intro Paragraphs */}
         <section className="max-w-2xl mt-20 space-y-5 text-lg leading-relaxed">
           <p>
-            I'm an incoming freshman at the{" "}
+            I&apos;m an incoming freshman at the{" "}
             <span className="font-semibold">University of California, Berkeley</span>, interested in <strong>math</strong>, <strong>physics</strong>
             <span className="line-through text-gray-500">, and CS</span>.
           </p>
