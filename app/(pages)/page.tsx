@@ -1,14 +1,27 @@
+'use client'
 import { pixel } from "@/ui/fonts";
 import PopUp from "@/components/PopUp";
-
+import TypingText from "@/components/TypingText";
+import { TypeAnimation } from "react-type-animation";
 export default function Home() {
   return (
     <main>
 
       <div className="flex flex-col items-center gap-6 px-6 py-10 text-gray-800 dark:text-gray-100">
         {/* Name Header */}
-        <h1 className="text-[70px] font-bold text-center leading-tight">
-          suni (stephanie) yao
+        <h1 className="text-[70px] font-bold text-center">
+         <TypeAnimation
+          sequence={[
+            // Same substring at the start will only be typed once, initially
+            'suni',
+            1000,
+            'stephanie',
+            1000,
+          ]}
+          speed={25}
+          repeat={Infinity}
+        />
+        <span className="translate -translate-x-50">yao</span>
         </h1>
         {/* Pixel Welcome Note */}
         <div className={`${pixel.className} absolute top-35 text-center text-sm text-gray-500 dark:text-gray-400`}>
@@ -25,6 +38,7 @@ export default function Home() {
           </p>
 
           <p>
+            <TypingText text="i love math, coffee, and cats" />
             I especially love math and plan to major in <strong>pure math</strong>. My favorite areas are <em>geometry</em> and <em>number theory</em>.
           </p>
 
