@@ -13,15 +13,14 @@ export default function Home() {
          <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed once, initially
-            'suni',
-            1000,
-            'stephanie',
-            1000,
+            'SUNI YAO',
+            1500,
+            'STEPHANIE YAO',
+            1500,
           ]}
-          speed={25}
+          speed={10}
           repeat={Infinity}
         />
-        <span className="translate -translate-x-50">yao</span>
         </h1>
         {/* Pixel Welcome Note */}
         <div className={`${pixel.className} absolute top-35 text-center text-sm text-gray-500 dark:text-gray-400`}>
@@ -38,20 +37,19 @@ export default function Home() {
           </p>
 
           <p>
-            <TypingText text="i love math, coffee, and cats" />
             I especially love math and plan to major in <strong>pure math</strong>. My favorite areas are <em>geometry</em> and <em>number theory</em>.
           </p>
 
           <div>
-            <p className="mb-2">Besides math, I also enjoy:</p>
+            <p className="mb-2">Besides math, I also enjoy</p>
             <ul className="list-disc list-inside space-y-1 pl-1">
-              <li>Listening to J-POP, C-POP, R&B, and diverse music</li>
+              <li>listening to J-POP, C-POP, R&B, and diverse music</li>
               <li>
-                Playing random songs by ear on the piano with my{" "}
+                playing random songs by ear on the piano with my{" "}
                 <PopUp note="never perfect 😔">relative pitch</PopUp>
               </li>
-              <li>Playing badminton</li>
-              <li>Trying to liveTeX math lecture notes</li>
+              <li>badminton... probably?</li>
+              <li>trying to liveTeX math lecture notes</li>
             </ul>
           </div>
         </section>
