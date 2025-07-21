@@ -1,7 +1,6 @@
 'use client'
 import { pixel } from "@/ui/fonts";
 import PopUp from "@/components/PopUp";
-import TypingText from "@/components/TypingText";
 import { TypeAnimation } from "react-type-animation";
 export default function Home() {
   return (
