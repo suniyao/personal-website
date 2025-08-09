@@ -18,11 +18,6 @@ export default function RootLayout({
       <body
         className={openSans.className}
       >
-        <div className="absolute top-40 left-1/2 transform -translate-x-1/2 lg:top-1/2 lg:left-20 lg:translate-y-[-50%]">
-          <div className="flex flex-col items-center">
-            <NavBar />
-          </div>
-        </div>
         {children}
       </body>
     </html>
