@@ -4,7 +4,7 @@ import { openSans } from "@/ui/fonts";
 import NavBar from "@/components/NavBar";
 
 export const metadata: Metadata = {
-  title: "stephanie's shelf",
+  title: "Suni Stephanie Yao",
   description: "Personal website of Suni Stephanie Yao",
 };
 
@@ -18,6 +18,9 @@ export default function RootLayout({
       <body
         className={openSans.className}
       >
+        <div className="absolute top-10 right-20 ">
+          <NavBar />
+        </div>
         {children}
       </body>
     </html>
