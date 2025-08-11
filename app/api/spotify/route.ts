@@ -6,7 +6,6 @@ const refresh_token = process.env.SPOTIFY_REFRESH_TOKEN!;
 
 const basic = Buffer.from(`${client_id}:${client_secret}`).toString('base64');
 const NOW_PLAYING_ENDPOINT = 'https://api.spotify.com/v1/me/player/currently-playing';
-const RECENTLY_PLAYED_ENDPOINT = 'https://api.spotify.com/v1/me/player/recently-played?limit=1';
 const TOKEN_ENDPOINT = 'https://accounts.spotify.com/api/token';
 
 async function getAccessToken() {
@@ -33,84 +32,37 @@ async function getAccessToken() {
 export async function GET() {
   let access_token;
   try {
-    const tokenData = await getAccessToken();
-    access_token = tokenData.access_token;
-    console.log('Token scopes:', tokenData.scope || '(no scope returned)');
-    if (!tokenData.scope?.includes('user-read-recently-played')) {
-      console.warn('⚠ Missing scope: user-read-recently-played. This WILL cause empty arrays.');
+      const tokenData = await getAccessToken();
+      access_token = tokenData.access_token;
+    } catch (err) {
+      console.error(err);
+      return NextResponse.json({ error: 'Failed to get access token' }, { status: 500 });
     }
-  } catch (err) {
-    console.error(err);
-    return NextResponse.json({ error: 'Failed to get access token' }, { status: 500 });
-  }
 
-  // Check currently playing
-  const nowPlayingRes = await fetch(NOW_PLAYING_ENDPOINT, {
-    headers: { Authorization: `Bearer ${access_token}` },
-  });
-
-  if (nowPlayingRes.status === 204 || nowPlayingRes.status > 400) {
-    // Get recently played instead
-    const recentResponse = await fetch(RECENTLY_PLAYED_ENDPOINT, {
+    try {
+    const nowPlayingRes = await fetch(NOW_PLAYING_ENDPOINT, {
       headers: { Authorization: `Bearer ${access_token}` },
     });
 
-    const recentData = await recentResponse.json();
-    console.log('Raw recent data:', recentData);
-
-    if (!recentResponse.ok) {
-      return NextResponse.json({ error: 'Failed to fetch recently played', details: recentData }, { status: 500 });
+    if (nowPlayingRes.status === 200) {
+      const song = await nowPlayingRes.json();
+      
+      return NextResponse.json({
+        isPlaying: song.is_playing,
+        title: song.item.name,
+        artist: song.item.artists.map((artist: any) => artist.name).join(', '),
+        album: song.item.album.name,
+        albumImageUrl: song.item.album.images[0]?.url,
+        songUrl: song.item.external_urls.spotify,
+        progress: song.progress_ms,
+        duration: song.item.duration_ms,
+      });
     }
 
-    const recentTracks = recentData.items?.map((item: any) => ({
-      title: item.track.name,
-      artist: item.track.artists.map((artist: any) => artist.name).join(', '),
-      album: item.track.album.name,
-      albumImageUrl: item.track.album.images[0]?.url,
-      songUrl: item.track.external_urls.spotify,
-      playedAt: item.played_at,
-    })) || [];
-
-    return NextResponse.json({ isPlaying: false, recentTracks });
+    // No current track at all
+    return NextResponse.json({ isPlaying: false });
+  } catch (err) {
+      // On fetch error, treat as not playing
+      return NextResponse.json({ isPlaying: false });
   }
-
-  // If playing, return current song
-  const song = await nowPlayingRes.json();
-  console.log('Now playing data:', song);
-
-  if (song.is_playing) {
-    return NextResponse.json({
-      isPlaying: true,
-      title: song.item.name,
-      artist: song.item.artists.map((artist: any) => artist.name).join(', '),
-      album: song.item.album.name,
-      albumImageUrl: song.item.album.images[0]?.url,
-      songUrl: song.item.external_urls.spotify,
-      progress: song.progress_ms,
-      duration: song.item.duration_ms,
-    });
-  }
-
-  // Fallback: not playing, get recent
-  const recentResponse = await fetch(RECENTLY_PLAYED_ENDPOINT, {
-    headers: { Authorization: `Bearer ${access_token}` },
-  });
-
-  const recentData = await recentResponse.json();
-  console.log('Raw fallback recent data:', recentData);
-
-  if (!recentResponse.ok) {
-    return NextResponse.json({ error: 'Failed to fetch recent tracks', details: recentData }, { status: 500 });
-  }
-
-  const recentTracks = recentData.items?.map((item: any) => ({
-    title: item.track.name,
-    artist: item.track.artists.map((artist: any) => artist.name).join(', '),
-    album: item.track.album.name,
-    albumImageUrl: item.track.album.images[0]?.url,
-    songUrl: item.track.external_urls.spotify,
-    playedAt: item.played_at,
-  })) || [];
-
-  return NextResponse.json({ isPlaying: false, recentTracks });
 }
