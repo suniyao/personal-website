@@ -6,6 +6,7 @@ const refresh_token = process.env.SPOTIFY_REFRESH_TOKEN!;
 
 const basic = Buffer.from(`${client_id}:${client_secret}`).toString('base64');
 const NOW_PLAYING_ENDPOINT = 'https://api.spotify.com/v1/me/player/currently-playing';
+const RECENTLY_PLAYED_ENDPOINT = 'https://api.spotify.com/v1/me/player/recently-played?limit=1';
 const TOKEN_ENDPOINT = 'https://accounts.spotify.com/api/token';
 
 async function getAccessToken() {
@@ -21,26 +22,64 @@ async function getAccessToken() {
     }),
   });
 
-  return response.json();
+  const json = await response.json();
+  if (!response.ok) {
+    console.error('Failed to refresh token:', json);
+    throw new Error(`Spotify token refresh failed: ${json.error || 'Unknown error'}`);
+  }
+  return json;
 }
 
 export async function GET() {
-  const { access_token } = await getAccessToken();
-
-  const response = await fetch(NOW_PLAYING_ENDPOINT, {
-    headers: {
-      Authorization: `Bearer ${access_token}`,
-    },
-  });
-
-  if (response.status === 204 || response.status > 400) {
-    return NextResponse.json({ isPlaying: false });
+  let access_token;
+  try {
+    const tokenData = await getAccessToken();
+    access_token = tokenData.access_token;
+    console.log('Token scopes:', tokenData.scope || '(no scope returned)');
+    if (!tokenData.scope?.includes('user-read-recently-played')) {
+      console.warn('⚠ Missing scope: user-read-recently-played. This WILL cause empty arrays.');
+    }
+  } catch (err) {
+    console.error(err);
+    return NextResponse.json({ error: 'Failed to get access token' }, { status: 500 });
   }
 
-  const song = await response.json();
+  // Check currently playing
+  const nowPlayingRes = await fetch(NOW_PLAYING_ENDPOINT, {
+    headers: { Authorization: `Bearer ${access_token}` },
+  });
+
+  if (nowPlayingRes.status === 204 || nowPlayingRes.status > 400) {
+    // Get recently played instead
+    const recentResponse = await fetch(RECENTLY_PLAYED_ENDPOINT, {
+      headers: { Authorization: `Bearer ${access_token}` },
+    });
+
+    const recentData = await recentResponse.json();
+    console.log('Raw recent data:', recentData);
+
+    if (!recentResponse.ok) {
+      return NextResponse.json({ error: 'Failed to fetch recently played', details: recentData }, { status: 500 });
+    }
+
+    const recentTracks = recentData.items?.map((item: any) => ({
+      title: item.track.name,
+      artist: item.track.artists.map((artist: any) => artist.name).join(', '),
+      album: item.track.album.name,
+      albumImageUrl: item.track.album.images[0]?.url,
+      songUrl: item.track.external_urls.spotify,
+      playedAt: item.played_at,
+    })) || [];
+
+    return NextResponse.json({ isPlaying: false, recentTracks });
+  }
+
+  // If playing, return current song
+  const song = await nowPlayingRes.json();
+  console.log('Now playing data:', song);
 
   if (song.is_playing) {
-    const data = {
+    return NextResponse.json({
       isPlaying: true,
       title: song.item.name,
       artist: song.item.artists.map((artist: any) => artist.name).join(', '),
@@ -49,9 +88,29 @@ export async function GET() {
       songUrl: song.item.external_urls.spotify,
       progress: song.progress_ms,
       duration: song.item.duration_ms,
-    };
-    return NextResponse.json(data);
+    });
   }
 
-  return NextResponse.json({ isPlaying: false });
+  // Fallback: not playing, get recent
+  const recentResponse = await fetch(RECENTLY_PLAYED_ENDPOINT, {
+    headers: { Authorization: `Bearer ${access_token}` },
+  });
+
+  const recentData = await recentResponse.json();
+  console.log('Raw fallback recent data:', recentData);
+
+  if (!recentResponse.ok) {
+    return NextResponse.json({ error: 'Failed to fetch recent tracks', details: recentData }, { status: 500 });
+  }
+
+  const recentTracks = recentData.items?.map((item: any) => ({
+    title: item.track.name,
+    artist: item.track.artists.map((artist: any) => artist.name).join(', '),
+    album: item.track.album.name,
+    albumImageUrl: item.track.album.images[0]?.url,
+    songUrl: item.track.external_urls.spotify,
+    playedAt: item.played_at,
+  })) || [];
+
+  return NextResponse.json({ isPlaying: false, recentTracks });
 }

@@ -2,7 +2,7 @@
 import { geologica, pixel } from "@/ui/fonts";
 import PopUp from "@/components/PopUp";
 import { TypeAnimation } from "react-type-animation";
-import Link from "@/components/Link"
+import { CustomLink } from "@/components/Links";
 import Image from "next/image";
 import SpotifyNowPlaying from "@/components/SpotifyNowPlaying";
 export default function Home() {
@@ -35,16 +35,16 @@ export default function Home() {
 
               <ul className="list-disc list-inside mt-4 space-y-1">
                 Besides academic interests, I also enjoy
-                <li>listening to music of diverse genre (<Link href="https://forms.gle/kpRzsb7AGki6TLdJ6">give me music recs!)</Link></li>
-                <li><Link href={"/project"}>building</Link> <Link href="https://prime-hunt.vercel.app">small</Link> interesting projects</li>
+                <li>listening to music of diverse genre (<CustomLink href="https://forms.gle/kpRzsb7AGki6TLdJ6">give me music recs!)</CustomLink></li>
+                <li><CustomLink href={"/project"}>building</CustomLink> <CustomLink href="https://prime-hunt.vercel.app">small</CustomLink> interesting projects</li>
                 <li>badminton</li>
-                <li><Link href={"/update"}>updating</Link> on recent life</li>
+                <li><CustomLink href={"/update"}>updating</CustomLink> on recent life</li>
                 <li>checking if i have friends live close to me and ask if they have time to meetup</li>
                 <li>playing random songs on the piano with my <PopUp note="(never perfect 😔)">relative pitch</PopUp></li>
               </ul>
           </div>
         </div>
-        <div className="relative -top-40 group cursor-pointer">
+        <div className="relative -top-45 group cursor-pointer mr-20">
           <Image 
             src={"/about.png"} 
             alt="on Brooklyn Bridge, photo taken on Jul 26, 2025" 
