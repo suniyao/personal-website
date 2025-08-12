@@ -1,5 +1,4 @@
 import { geologica } from "@/ui/fonts";
-import { SiObsidian } from "react-icons/si";
 
 type CardProps = {
   title: string;

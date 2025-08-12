@@ -9,7 +9,6 @@ type LinkProps = {
 };
 
 export function CustomLink({ href, className, children }: LinkProps) {
-  const pathname = usePathname()
   return (
     <Link href={href} className={className + "relative group cursor-pointer underline decoration-dotted hover:decoration-wavy transition-decoration"}>
       {children}
