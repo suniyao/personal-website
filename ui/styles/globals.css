@@ -27,3 +27,16 @@ body {
 .link {
   @apply hover:text-black dark:hover:text-white underline-offset-4 hover:underline transition-colors duration-200
 }
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 3s infinite;
+}

@@ -56,6 +56,8 @@ export async function GET() {
         songUrl: song.item.external_urls.spotify,
         progress: song.progress_ms,
         duration: song.item.duration_ms,
+        timestamp: song.timestamp,
+        artistsUrl: song.item.artists.map((artist: any) => artist.external_urls.spotify).join(', '),
       });
     }
 

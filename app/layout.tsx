@@ -18,7 +18,7 @@ export default function RootLayout({
       <body
         className={openSans.className}
       >
-        <div className="absolute top-10 right-20 ">
+        <div className="absolute top-10 right-20">
           <NavBar />
         </div>
         {children}

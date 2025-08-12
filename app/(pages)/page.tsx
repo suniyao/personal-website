@@ -70,8 +70,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-6">
-        <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">Currently listening to:</p>
+      <div className="mt-6 pb-6">
         <SpotifyNowPlaying />
       </div>
     </main>
