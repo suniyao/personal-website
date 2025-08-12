@@ -64,8 +64,8 @@ export default function SpotifyNowPlaying() {
         const enhancedG = Math.min(255, Math.floor(g * 1.2));
         const enhancedB = Math.min(255, Math.floor(b * 1.2));
         
-        setDominantColorLeft(`rgba(${enhancedR}, ${enhancedG}, ${enhancedB}, 0.15)`);
-        setDominantColorRight(`rgba(${enhancedR}, ${enhancedG}, ${enhancedB}, 0.2)`);
+        setDominantColorLeft(`rgba(${enhancedR}, ${enhancedG}, ${enhancedB}, 0.3)`);
+        setDominantColorRight(`rgba(${enhancedR}, ${enhancedG}, ${enhancedB}, 0.5)`);
       } catch (error) {
         console.log('Could not extract color, using fallback');
         setDominantColorLeft('rgba(255,255,255,0.05)');
@@ -210,7 +210,7 @@ export default function SpotifyNowPlaying() {
                 alt={currentTrack.album || ''}
                 width={56}
                 height={56}
-                className={`rounded-lg shadow-lg group-hover:shadow-xl transition-all duration-300 ${
+                className={`rounded-lg shadow-lg shadow-black/30 group-hover:shadow-xl transition-all duration-300 ${
                   currentTrack.isPlaying ? '' : 'opacity-75'
                 }`}
               />

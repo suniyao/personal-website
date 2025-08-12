@@ -40,3 +40,24 @@ body {
 .animate-shimmer {
   animation: shimmer 3s infinite;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .flag-link {
+    transition: 0.1875s cubic-bezier(0.375, 0, 0.675, 1) transform;
+    transform-origin: top left;
+  }
+
+  .flag-link:hover,
+  .flag-link:focus {
+    animation: waveFlag 0.5s linear infinite alternate;
+  }
+}
+
+@keyframes waveFlag {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}

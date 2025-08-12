@@ -5,6 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import { CustomLink } from "@/components/Links";
 import Image from "next/image";
 import SpotifyNowPlaying from "@/components/SpotifyNowPlaying";
+import Socials from "@/components/Socials";
 export default function Home() {
   return (
     <div>
@@ -42,6 +43,9 @@ export default function Home() {
                 <li>checking if i have friends live close to me and ask if they have time to meetup</li>
                 <li>playing random songs on the piano with my <PopUp note="(never perfect 😔)">relative pitch</PopUp></li>
               </ul>
+          </div>
+          <div className="mt-10">
+            <Socials />
           </div>
           <div className="mt-45">
             <SpotifyNowPlaying />
