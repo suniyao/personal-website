@@ -1,5 +1,5 @@
 'use client'
-import { geologica, pixel } from "@/ui/fonts";
+import { geologica } from "@/ui/fonts";
 import PopUp from "@/components/PopUp";
 import { TypeAnimation } from "react-type-animation";
 import { CustomLink } from "@/components/Links";
@@ -7,8 +7,8 @@ import Image from "next/image";
 import SpotifyNowPlaying from "@/components/SpotifyNowPlaying";
 export default function Home() {
   return (
-    <main className="flex flex-col h-screen ml-20">
-      <div className={`${geologica.className} flex flex-col font-semibold text-[100px] mt-15`}>
+    <div>
+      <div className={`${geologica.className} flex flex-col font-semibold text-[100px]`}>
         <div>
           <TypeAnimation
             preRenderFirstString={true}
@@ -43,35 +43,37 @@ export default function Home() {
                 <li>playing random songs on the piano with my <PopUp note="(never perfect 😔)">relative pitch</PopUp></li>
               </ul>
           </div>
-          <div className="pb-8 mt-45">
+          <div className="mt-45">
             <SpotifyNowPlaying />
           </div>
         </div>
-        <div className="relative -top-45 group cursor-pointer mr-20">
-          <Image 
-            src={"/about.png"} 
-            alt="on Brooklyn Bridge, photo taken on Jul 26, 2025" 
-            width={500} 
-            height={1000} 
-            className="rounded-lg group-hover:opacity-0 transition-opacity duration-300"
-          />
-          <video 
-            className="absolute inset-0 rounded-lg object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            width={500}
-            height={1000}
-            loop
-            muted
-            playsInline
-            onMouseEnter={(e) => e.currentTarget.play()}
-            onMouseLeave={(e) => {
-              e.currentTarget.pause();
-              e.currentTarget.currentTime = 0;
-            }}
-            >
-            <source src="/live.mp4" type="video/mp4" />
-          </video>
+        <div className="flex justify-center lg:justify-end">
+          <div className="relative group -top-45 cursor-pointer max-w-full w-full">
+            <Image 
+              src={"/about.png"} 
+              alt="on Brooklyn Bridge, photo taken on Jul 26, 2025" 
+              width={500} 
+              height={1000} 
+              className="rounded-lg group-hover:opacity-0 transition-opacity duration-300"
+            />
+            <video 
+              className="absolute inset-0 rounded-lg object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+              width={500}
+              height={1000}
+              loop
+              muted
+              playsInline
+              onMouseEnter={(e) => e.currentTarget.play()}
+              onMouseLeave={(e) => {
+                e.currentTarget.pause();
+                e.currentTarget.currentTime = 0;
+              }}
+              >
+              <source src="/live.mp4" type="video/mp4" />
+            </video>
+          </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
