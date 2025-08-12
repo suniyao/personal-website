@@ -8,7 +8,7 @@ export default function Socials() {
         <FaGithub size={25}/>
       </a>
 
-      <a href="www.linkedin.com/in/stephanieysn">
+      <a href="https://linkedin.com/in/stephanieysn">
         <FaLinkedin size={25}/>
       </a>
 
