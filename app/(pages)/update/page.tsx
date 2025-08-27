@@ -1,7 +1,10 @@
 import { geologica } from "@/ui/fonts";
 import Image from "next/image";
+import { getSortedPostsData } from "@/lib/posts";
 
-export default function Update(){
+export default async function Update() {
+  const allPostsData = await getSortedPostsData();
+
   return (
     <div>
       <div className={`${geologica.className} flex flex-col font-semibold text-[100px]`}>
@@ -18,7 +21,21 @@ export default function Update(){
           height={100}
         />
       </a>
-      <div className="text-[20px] mt-10"></div>
+      <div className="text-[20px] mt-10">
+        <ul>
+          {allPostsData.map(({ id, date, title, subtitle }: { id: string; date: string; title: string; subtitle: string; }) => (
+            <li key={id}>
+              {title}
+              <br />
+              {subtitle}
+              <br />
+              {id}
+              <br />
+              {date}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
-  )
+  );
 }
