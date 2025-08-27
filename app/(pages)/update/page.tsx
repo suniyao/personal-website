@@ -18,7 +18,14 @@ export default function Update(){
           height={100}
         />
       </a>
-      <div className="text-[20px] mt-10"></div>
+      <Image
+        src={"/under_construction.png"}
+        alt="under construction"
+        width={400}
+        height={400}
+        className="items-center justify-center m-auto"
+        />
+      <div className="relative -top-30 text-[15px] text-gray-500 text-center">no updates yet (fetching in dev), check back later!</div>
     </div>
   )
 }
