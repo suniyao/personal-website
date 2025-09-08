@@ -2,6 +2,7 @@
 title: "gravityless raindrops on the window"
 subtitle: "How have you been feeling so far? Oh, it has been badass..."
 date: "2024-09-06"
+cover: "https://substackcdn.com/image/fetch/$s_!XVPd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01a2b911-5d5b-4560-9429-596dd99804e2_1339x753.png"
 ---
 
 

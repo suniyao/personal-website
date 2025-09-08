@@ -9,6 +9,14 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/image/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'substackcdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'hc-cdn.hel1.your-objectstorage.com',
+      },
     ],
   },
 };

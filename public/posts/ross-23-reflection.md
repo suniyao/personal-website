@@ -2,6 +2,7 @@
 title: "Ross '23 reflection"
 subtitle: "PROLOGUE"
 date: "2023-07-30"
+cover: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/597d313137a512b1d58a6b4a4451d2a21cf0e3d5_image.png"
 ---
 
 The six weeks are going so fast, like a long dream in summer, we are now ending Ross Indiana for this year.

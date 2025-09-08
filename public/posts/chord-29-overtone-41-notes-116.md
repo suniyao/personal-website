@@ -2,6 +2,7 @@
 title: "chord (29), overtone (41), notes (116)"
 subtitle: "is the thing i typed the most frequently for the first half september and now it's over"
 date: "2024-10-02"
+cover: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f6d9cc2b27ed16487dd0255700af9b5e84da67e2_image.png"
 ---
 
 “extracting music notes from chords by applying and improving fourier transform” is the title of my extended essay. i finished it[1](https://stepyao.substack.com/p/cho rd-29-overtone-41-notes-116#footnote-1-148563944), started enjoying music[2](https://stepyao.substack.com/p/chord-29-overtone-41-notes-116#footnote-2-148563944), felt relief, but at the same time, the mixed void limbo just kicked the mind-door — i live in the wrap of music.

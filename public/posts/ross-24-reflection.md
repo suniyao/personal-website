@@ -2,6 +2,7 @@
 title: "Ross '24 reflection"
 subtitle: "$2 \\in \\mathbb{Z}$"
 date: "2024-07-28"
+cover: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/dadc02cee9271e7a73cca3b2fc3ab532b2c73b1d_image.png"
 ---
 
 Just as last time, I decided to write this prologue on the way back home, when Ross' memories started flashing back, mentally attacking me. Today is also my 17-year-old birthday, writing the prologue today I also marked down a milestone in my life. At the same time writing the reflection, giving response to the prologue, I opened my application for JC to give myself a reference of how I am supposed to perform from my personal aim.

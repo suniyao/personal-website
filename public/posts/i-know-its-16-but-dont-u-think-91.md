@@ -2,6 +2,7 @@
 title: "i know it's #16 but don't u think 91 is possible"
 subtitle: "had my first hackathon and successfully escaped from schoolwork for a whole week! ;) <!--inserted too many pics so sry this is too long also i have no idea why i forgot posting it after finishing -->"
 date: "2025-04-15"
+cover: "https://substackcdn.com/image/fetch/$s_!187I!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68212a51-bb6a-415d-8ab4-be55535000fb_913x472.png"
 ---
 
 
@@ -110,7 +111,7 @@ The next day was HACKATHON DAY RAHHHH — and it kicked off with me dropping GoG
 
 i did come up with a better solution of using my puffer to wrap those up and hold the entire puffer wrap LMAO but was asked to put it back on by Janet since i was only wearing 2 clothes then. i still need to claim:
 
-\\((-7^\circ \text{C}=19^\circ \text{F})_{\text{Boston}}>(9^\circ \text{C}=48^\circ \text{F})_{\text{Shanghai}}\\)
+$$(-7^\circ \text{C}=19^\circ \text{F})_{\text{Boston}}>(9^\circ \text{C}=48^\circ \text{F})_{\text{Shanghai}}$$
 
 aka boston cold is MID[13](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-13-158909990).
 
@@ -123,7 +124,7 @@ the biggest mistake i made at the hackathon is suggesting that we can use a VSCo
 
 
 
-the 8 hours actually ran faster than i supposed, after “f*ck why this does not work” “sh*t its because of [some strange reasons why our code crashes including MIT GUEST does not support MongoDB deployment] that does not even make sense” “WTF” “erm what the…” “SIGMA?” it was approaching the end. after debugging the last 2 emergencies we submitted our project and started looking around. many ppl built very significant projects (tbh mit-related high school events always have so many strong competitors orzorz) and it was interesting to ask what utilities their projects have. one team thought i was a grader and gave me a well-prepared full presentation 😭 
+the 8 hours actually ran faster than i supposed, after “f*ck why this does not work” “sh\*t its because of [some strange reasons why our code crashes including MIT GUEST does not support MongoDB deployment] that does not even make sense” “WTF” “erm what the…” “SIGMA?” it was approaching the end. after debugging the last 2 emergencies we submitted our project and started looking around. many ppl built very significant projects (tbh mit-related high school events always have so many strong competitors orzorz) and it was interesting to ask what utilities their projects have. one team thought i was a grader and gave me a well-prepared full presentation 😭 
 
 [![](https://substackcdn.com/image/fetch/$s_!enmY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4543e4f-1b67-431e-955e-19c3bb47ac75_1702x1276.jpeg)](https://substackcdn.com/image/fetch/$s_!enmY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4543e4f-1b67-431e-955e-19c3bb47ac75_1702x1276.jpeg)amazing sunset from media lab !!
 
