@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import 'katex/dist/katex.min.css';
+import { formatDate } from '@/lib/formatDate'
 
 type BlogProps = {
   id: string;
@@ -13,11 +14,6 @@ type BlogProps = {
 }
 
 export default function Blog({ id, date, title, subtitle, cover }: BlogProps) {
-  const formatted = new Date(date).toLocaleDateString("en-US", {
-    month: "short", // "Apr"
-    day: "numeric", // "15"
-    year: "numeric", // "2025"
-  });
 
   return (
     <div className="flex flex-col w-245 px-15 hover:bg-gray-800 transition-colors py-5 px-auto">
@@ -41,7 +37,7 @@ export default function Blog({ id, date, title, subtitle, cover }: BlogProps) {
           </div>
           {/* date goes to the bottom */}
           <div className="text-gray-500 text-sm font-mono">
-            {formatted}
+            {formatDate(date)}
           </div>
         </a>
 

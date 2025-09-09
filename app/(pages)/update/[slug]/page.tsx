@@ -6,7 +6,12 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import remarkGfm from 'remark-gfm';
 import matter from 'gray-matter';
+import { formatDate } from '@/lib/formatDate'
 import 'katex/dist/katex.min.css';
+import style from '@/ui/styles/markdown-styles.module.css';
+import rehypeRaw from 'rehype-raw';
+import { components } from '@/components/MdStyle';
+
 
 export default function BlogPostPage() {
   const { slug } = useParams();
@@ -35,16 +40,26 @@ export default function BlogPostPage() {
         {meta && (
           <div className="mb-8">
             <h1 className="text-4xl font-extrabold text-white mb-4">{meta.title}</h1>
-            <div className="text-gray-400 mb-2">{meta.date}</div>
             {meta.subtitle && (
-              <div className="text-gray-400 italic mb-4">{meta.subtitle}</div>
+              <div className="text-gray-400 italic text-[20px]">
+                <ReactMarkdown
+                  remarkPlugins={[remarkMath]}
+                  rehypePlugins={[rehypeKatex]}
+                  children={meta.subtitle}
+                  components={{
+                    p: ({ children }) => <span>{children}</span>
+                  }}
+                />
+              </div>
             )}
+            <div className="text-gray-400 mt-5">{formatDate(meta.date)}</div>
           </div>
         )}
-        <article className="prose prose-invert prose-lg max-w-none">
+        <article className={`prose prose-invert prose-lg max-w-none ${style.reactMarkDown}`}>
           <ReactMarkdown
+            rehypePlugins={[rehypeKatex, rehypeRaw]}
             remarkPlugins={[remarkMath, remarkGfm]}
-            rehypePlugins={[rehypeKatex]}
+            // components={components}
           >
             {content}
           </ReactMarkdown>
