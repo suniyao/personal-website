@@ -19,17 +19,17 @@ since the start of the spring semester i have been way too energetic than i was 
 
 because i was heading to boston for my first hackathon!! 😎✨
 
-though everyone’s reaction towards that was why (are u going now because it’s nearly PG aka predicted grade mock exam weeks) and how (did u decide to go to a hackathon because when did u start doing cs[1](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-1-158909990)), i have claimed several times that i still think i make a _rational_ choice based on the advantages i got from this little vacation off school. this is also basically a record of what i did in the travel so no main focus at all lol i did enjoy writing this to remember even the smallest things i encountered 
+though everyone’s reaction towards that was why (are u going now because it’s nearly PG aka predicted grade mock exam weeks) and how (did u decide to go to a hackathon because when did u start doing cs[^1], i have claimed several times that i still think i make a _rational_ choice based on the advantages i got from this little vacation off school. this is also basically a record of what i did in the travel so no main focus at all lol i did enjoy writing this to remember even the smallest things i encountered 
 
 ## feb 25-28: chomp chomp chomp
 
-i headed to PVG on tuesday morning with decent KFC breakfast takeaway and took a few pics and videos to instruct my grandparents who were going to fly to the US[2](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-2-158909990) in late March how they can use the Delta app to check in and reclaimed that they don’t need to register whatever membership which they failed after trying many times. it was also the first time i had a formal meal in #69 lounge 
+i headed to PVG on tuesday morning with decent KFC breakfast takeaway and took a few pics and videos to instruct my grandparents who were going to fly to the US[^2] in late March how they can use the Delta app to check in and reclaimed that they don’t need to register whatever membership which they failed after trying many times. it was also the first time i had a formal meal in #69 lounge 
 
 [![](https://substackcdn.com/image/fetch/$s_!IGNT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffbbc52ee-7a3c-4368-a967-efab790ff4e4_1512x1078.jpeg)](https://substackcdn.com/image/fetch/$s_!IGNT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffbbc52ee-7a3c-4368-a967-efab790ff4e4_1512x1078.jpeg)(tho very mid??)
 
-for the first three days i was been hosted by a college applying consultant aka physics contests coach / research tutor aka a physics professor at Nanjing University[3](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-3-158909990) Wendy and we shared a double in her apartment. i got to know her from last year’s participation in HMMT since she was my teammate’s consultant. Wendy has been staying in lexington for about 2 months to spend time with her children who’re taking high school & university. it was really lucky that she was planning to go back to China on Feb 28th otherwise if it was earlier she would not be able to host me[4](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-4-158909990). (and my mom was having very different opinions on travelling from me, in short she considered average cost per day while i do total cost so i was very fine just travelling there for a weekend ~~sounds really strange but i don’t mind flying over half the earth just for better mental health~~ while she’s like if u’re only going there for a weekend it sounds less reasonable… 💀) i was basically studying, reviewing (a little bit for the mock exams), eating, yapping, playing electronic piano in her apartment, and meeting up with friends. 
+for the first three days i was been hosted by a college applying consultant aka physics contests coach / research tutor aka a physics professor at Nanjing University[^3] Wendy and we shared a double in her apartment. i got to know her from last year’s participation in HMMT since she was my teammate’s consultant. Wendy has been staying in lexington for about 2 months to spend time with her children who’re taking high school & university. it was really lucky that she was planning to go back to China on Feb 28th otherwise if it was earlier she would not be able to host me[^4]. (and my mom was having very different opinions on travelling from me, in short she considered average cost per day while i do total cost so i was very fine just travelling there for a weekend ~~sounds really strange but i don’t mind flying over half the earth just for better mental health~~ while she’s like if u’re only going there for a weekend it sounds less reasonable… 💀) i was basically studying, reviewing (a little bit for the mock exams), eating, yapping, playing electronic piano in her apartment, and meeting up with friends. 
 
-i received much caring from Wendy and her son Brady & daughter Jenny :) arrived at about 10pm but Jenny still cooked pork and garlic chives jiaozi for us. i’ll say i love the pork one but can’t really accept the garlic chives flavor as a southern Chinese [5](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-5-158909990) 😭
+i received much caring from Wendy and her son Brady & daughter Jenny :) arrived at about 10pm but Jenny still cooked pork and garlic chives jiaozi for us. i’ll say i love the pork one but can’t really accept the garlic chives flavor as a southern Chinese [^5] 😭
 
 the next day i woke up actually at about 6am but lay in bed until it was 7 when Wendy was also up, and had a really nice sandwich made by Jenny! they also surprisingly had a coffee machine and i was allowed to do some [latte art](https://www.reddit.com/r/notinteresting/comments/1jcplbf/the_barista_made_a_heart_for_my_husband_but_not/)
 
@@ -45,7 +45,7 @@ we also got osmanthus boba from tea one teahouse! so decent compared to indiana 
 
 the next day for breakfast we ate [chicken nuggets](https://youtu.be/Q8REcF4MRjQ) and pancakes, it was also the first time i tried using the cream dispenser and had so much fun accidentally spraying the cream on my hand and everywhere and cleaning it up
 
-before lunch i asked Wendy if we can go to costco for shopping. given last year’s experience of buying health supplements for my wai-po and wai-gong[7](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-7-158909990) and my confusion of why dad was relatively unhappy abt that — the main reason why i didn’t choose health supplements for my ye-ye and nai-nai[8](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-8-158909990) is just because they were so healthy in every way and i can’t find any products in costco which fit them[9](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-9-158909990) and they also hate health supplements??!! — so this time i just bought something for my parents aka generous sponsors so this is equal again. (after i got back to Shanghai i finally realized that the gift does not necessarily be supplements from costco 💀 npc moments forgive me and i promise i’ll do it the next time)
+before lunch i asked Wendy if we can go to costco for shopping. given last year’s experience of buying health supplements for my wai-po and wai-gong[^7] and my confusion of why dad was relatively unhappy abt that — the main reason why i didn’t choose health supplements for my ye-ye and nai-nai[^8] is just because they were so healthy in every way and i can’t find any products in costco which fit them[^9] and they also hate health supplements??!! — so this time i just bought something for my parents aka generous sponsors so this is equal again. (after i got back to Shanghai i finally realized that the gift does not necessarily be supplements from costco 💀 npc moments forgive me and i promise i’ll do it the next time)
 
 we were going for the roast chicken too! last year, my three HMMT teammates and i basically lived off that — we took it out of the fridge and reheated it three times to finish it and we all loved it
 
@@ -61,9 +61,9 @@ in the evening both Jenny and Wendy went out, and Brady was at home. we first we
 
 Brady cooked steak for me after we went back! so tasty and was literally a torture of having it in front of me while i was in the blueprint online team-formation session and couldn’t really eat with the camera on LOL
 
-[![](https://substackcdn.com/image/fetch/$s_!xUJl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0fc5ed58-a56d-4cf8-b89d-b6fa66f112f3_2082x960.jpeg)](https://substackcdn.com/image/fetch/$s_!xUJl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0fc5ed58-a56d-4cf8-b89d-b6fa66f112f3_2082x960.jpeg)didn’t take pics but just browsed Wendy’s wechat moments and got a pic just for a sense of how🔥the steak is!
+[![](https://substackcdn.com/image/fetch/$s_!xUJl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0fc5ed58-a56d-4cf8-b89d-b6fa66f112f3_2082x960.jpeg)](https://substackcdn.com/image/fetch/$s_!xUJl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0fc5ed58-a56d-4cf8-b89d-b6fa66f112f3_2082x960.jpeg)didn’t take pics but just browsed Wendy’s wechat moments and got a pic just for a sense of how 🔥 the steak is!
 
-the third day was a relatively healthy day with traditional chinese breakfast and lunch made by Wendy — sweet congee with red date & longan, boiled egg with soy sauce, and fried rice for lunch. after relying on metro in shanghai for 2+ years i count taking public transportation as a step to explore a place so i was about to take the bus and red line to harvard. however, when i took my luggage to the bus stop at 5:30pm the bus driver overlooked me and drove away even though i tried hard signaling him by waving my arms[10](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-10-158909990). so i tried calling an uber but realized it still restricted me for the stupid reason that i’m not an adult yet and lyft just failed randomly (claimed my billing address is incorrect 💀) so i ended up went back to the apartment[11](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-11-158909990) and Jenny helped me call a lyft 
+the third day was a relatively healthy day with traditional chinese breakfast and lunch made by Wendy — sweet congee with red date & longan, boiled egg with soy sauce, and fried rice for lunch. after relying on metro in shanghai for 2+ years i count taking public transportation as a step to explore a place so i was about to take the bus and red line to harvard. however, when i took my luggage to the bus stop at 5:30pm the bus driver overlooked me and drove away even though i tried hard signaling him by waving my arms[^10]. so i tried calling an uber but realized it still restricted me for the stupid reason that i’m not an adult yet and lyft just failed randomly (claimed my billing address is incorrect 💀) so i ended up went back to the apartment[^11] and Jenny helped me call a lyft 
 
 [![](https://substackcdn.com/image/fetch/$s_!2vEp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18af577c-65fd-42e8-9406-0df66ac54875_960x1282.jpeg)](https://substackcdn.com/image/fetch/$s_!2vEp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18af577c-65fd-42e8-9406-0df66ac54875_960x1282.jpeg)me finally heading off with greater effort than i expected and even fell asleep on the lyft because i was a bit tired zzzzz
 
@@ -81,7 +81,7 @@ from feb 28 - mar 2 when the blueprint was actually running i was hosted by Jane
 
 my way to MIT was luckily successful — after i studied in the science center for a while i realized it’s time to catch on the bus to MIT! i ran through the harvard yard with my luggage and looked really awkward when i need to turn to a sideway gate to the bus since the main gate got closed and nearly went on the wrong one. i caught on the bus right before it’s heading off though my credit card also didn’t work so i need to pay with my coins and one quarter dollar also dropped out of the bus the driver looked at me as if i’m an idiot 💀
 
-when i reached burton conner Janet was not back yet so i hang around outside: there were two students sitting on the bench and loud rock music came out from i dont know which window / basement possibly. i wait for a while and realized maybe i should at least take a whatever peek at the figma tutorial because the last time i used UI design tool was like 2 yrs ago (for a business project?? and i took like 10 hrs on the UI and even though for every single formal exam i got 5/7 i got 7/7 for the project probably because the business management teacher thought i put enough effort in tyty i claim i also tried hard for the exams business management is just a super hard subject which i cannot understand how to answer) though i had a harder time connecting to the MIT-GUEST network and while i was sitting on the bench dealing with my laptop janet came LOL[12](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-12-158909990)
+when i reached burton conner Janet was not back yet so i hang around outside: there were two students sitting on the bench and loud rock music came out from i dont know which window / basement possibly. i wait for a while and realized maybe i should at least take a whatever peek at the figma tutorial because the last time i used UI design tool was like 2 yrs ago (for a business project?? and i took like 10 hrs on the UI and even though for every single formal exam i got 5/7 i got 7/7 for the project probably because the business management teacher thought i put enough effort in tyty i claim i also tried hard for the exams business management is just a super hard subject which i cannot understand how to answer) though i had a harder time connecting to the MIT-GUEST network and while i was sitting on the bench dealing with my laptop janet came LOL[^12]
 
 [![](https://substackcdn.com/image/fetch/$s_!7DFm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0f2421e-97ca-468a-8b14-ab2d7c37c12b_1580x1280.jpeg)](https://substackcdn.com/image/fetch/$s_!7DFm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0f2421e-97ca-468a-8b14-ab2d7c37c12b_1580x1280.jpeg)while i’m waiting outside of BC 💀 i sometimes think my body is way too magical with 2 hrs less sleep needed compared to normal ppl and higher heartbeat (for reference when i ran through the harvard yard its ~189 bpm iirc and normal resting heartrate is ~110bpm) tho this is mostly due to nervousness
 
@@ -113,9 +113,9 @@ i did come up with a better solution of using my puffer to wrap those up and hol
 
 $$(-7^\circ \text{C}=19^\circ \text{F})_{\text{Boston}}>(9^\circ \text{C}=48^\circ \text{F})_{\text{Shanghai}}$$
 
-aka boston cold is MID[13](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-13-158909990).
+aka boston cold is MID[^13].
 
-the biggest mistake i made at the hackathon is suggesting that we can use a VSCode extension called live share because it actually did not work well after we added nodejs extensions (only the session host can see it so the nodejs run on host side only) and the terminal became a mess and unreadable while its still _half-functioning_. i made our backend teammate the host so that the 2 backend ppl can still use it to collaborate and i switched to local files since it worked better for me[14](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-14-158909990). my other frontend teammate works on styling tho later i realized the main focus was kinda wrong because she was tweaking on some particle effect background 😭 also i now suggest everyone using macbook during hackathon because they usually have better battery to at least survive through an 8hr-hackathon than windows. our windows sucked, including:
+the biggest mistake i made at the hackathon is suggesting that we can use a VSCode extension called live share because it actually did not work well after we added nodejs extensions (only the session host can see it so the nodejs run on host side only) and the terminal became a mess and unreadable while its still _half-functioning_. i made our backend teammate the host so that the 2 backend ppl can still use it to collaborate and i switched to local files since it worked better for me[^14]. my other frontend teammate works on styling tho later i realized the main focus was kinda wrong because she was tweaking on some particle effect background 😭 also i now suggest everyone using macbook during hackathon because they usually have better battery to at least survive through an 8hr-hackathon than windows. our windows sucked, including:
 
   * mine which forced me staying away from our table because i need to charge after only 4 hours of coding
 
@@ -150,7 +150,7 @@ apparently we didn’t get an award, but also as a senior attending this flying 
 
   * lots of love and caring from friends 😭♥️ 
 
-    * especially advice from Janet that i should learn how to 立威 (?) 💀 this sounds hard to achieve when you are dealing with a bunch of toxic Chinese intl high school burnt-out students who are all trying to emphasize their portion in the activity 💀 but actually aren’t that skilled in doing actual work[15](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-15-158909990) 💀💀💀instead of mit students 🔥🔥🔥 but at least this time i tried to distribute the work down and it was done with reasonable quality comparing to last time!! ig i have more 🔥 kids this time. so i only spent like 2 hours on the disgusting dumb compiling work[16](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-16-158909990) (does not include piecewise time of contacting every kid to do their work and tell them how to do their work) and it’s more well-organized than last time which i wasn’t able to sleep until 4am :’) 
+    * especially advice from Janet that i should learn how to 立威 (?) 💀 this sounds hard to achieve when you are dealing with a bunch of toxic Chinese intl high school burnt-out students who are all trying to emphasize their portion in the activity 💀 but actually aren’t that skilled in doing actual work[^15] 💀💀💀 instead of mit students 🔥🔥🔥 but at least this time i tried to distribute the work down and it was done with reasonable quality comparing to last time!! ig i have more 🔥 kids this time. so i only spent like 2 hours on the disgusting dumb compiling work[^16] (does not include piecewise time of contacting every kid to do their work and tell them how to do their work) and it’s more well-organized than last time which i wasn’t able to sleep until 4am :’) 
 
       * also its nice that we recruited more people this time so the relative workload put down to every student is simple and maybe thats why they are willing to do it
 
@@ -175,66 +175,34 @@ apparently we didn’t get an award, but also as a senior attending this flying 
 
 wow this appeared to be a super long post and i yapped harder than i did in my extended essay. i finished much earlier but procrastinated on posting this and this is now abt 7 weeks later (wait already??) i’ll grind on something else now :)
 
-[1](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-1-158909990)
+[^1]: okay ig i gave too much math nerd vibes but i also did some cp??? also some fancy stuff 💀 idk when i’ll be qualified to be called cs sellout tho LOL
 
-okay ig i gave too much math nerd vibes but i also did some cp??? also some fancy stuff 💀 idk when i’ll be qualified to be called cs sellout tho LOL
+[^2]: to help out my uncle & cousin who moved to Ohio last summer and will be back in July. half worrying abt how i will adapt to this change but whatever now i have been shipping every single important international mail there since September because i was traumatized after losing my Physics WOOT merch in 2023 when it was shipped to China. hope my uncle would be ready to be bombed by my mails including free books/stickers/merch/swags i got. my obsession for them validates they are super important
 
-[2](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-2-158909990)
+[^3]: sometimes i still feel very magical how union set of these three is not an empty set
 
-to help out my uncle & cousin who moved to Ohio last summer and will be back in July. half worrying abt how i will adapt to this change but whatever now i have been shipping every single important international mail there since September because i was traumatized after losing my Physics WOOT merch in 2023 when it was shipped to China. hope my uncle would be ready to be bombed by my mails including free books/stickers/merch/swags i got. my obsession for them validates they are super important
+[^4]: basically this is an awkward misunderstanding that i thought bp week is offline (literally does not make sense at all) and realized that it was not so i planned to cold-DM everyone i knew who might possibly host me for the weekdays nights and got really lucky since she’s the first one i reached out to orzorz
 
-[3](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-3-158909990)
+[^5]:“oh are u from the north! i’ve never had garlic chive jiaozi before tho my mom liked garlic chives” and ate 2 but can’t really eat after that
 
-sometimes i still feel very magical how union set of these three is not an empty set
+[^6]: same price as this, ~$14 but consider the purchasing power parity difference between the US and China
 
-[4](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-4-158909990)
+[^7]: grandparents on my mom’s side but i gave up calling them as that since this is so messy
 
-basically this is an awkward misunderstanding that i thought bp week is offline (literally does not make sense at all) and realized that it was not so i planned to cold-DM everyone i knew who might possibly host me for the weekdays nights and got really lucky since she’s the first one i reached out to orzorz
+[^8]: grandparents on my dad’s side
 
-[5](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-5-158909990)
+[^9]: i claimed this was instead something he should be happy abt but apparently he didn’t accept this claim and thought i was being careless
 
-“oh are u from the north! i’ve never had garlic chive jiaozi before tho my mom liked garlic chives” and ate 2 but can’t really eat after that
+[^10]: it should be super obvious because i was holding my luggage but it turned out that he just passed by leaving me standing there desperately
 
-[6](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-6-158909990)
+[^11]: a miracle for me that i successfully went back from the bus stop to their apartment because i didn’t try remembering it at all and luckily found the right building by pulling up a photo i took at their apartment and searching up its location
 
-same price as this, ~$14 but consider the purchasing power parity difference between the US and China
+[^12]: why is here an LOL? my equivalent expression to HI GUYS AM I PREPARED I THINK NO I THINK IM COOKED
 
-[7](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-7-158909990)
+[^13]: just checked boston weather now tbh the very long winter is kinda depressing
 
-grandparents on my mom’s side but i gave up calling them as that since this is so messy 
+[^14]: i forget why we insisted on using that shit LMAO we should just use github and git 😭🙏
 
-[8](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-8-158909990)
+[^15]: HOLY SHIT GUYS THAT LITERALLY INCLUDES ME 🤡
 
-grandparents on my dad’s side
-
-[9](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-9-158909990)
-
-i claimed this was instead something he should be happy abt but apparently he didn’t accept this claim and thought i was being careless
-
-[10](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-10-158909990)
-
-it should be super obvious because i was holding my luggage but it turned out that he just passed by leaving me standing there desperately 
-
-[11](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-11-158909990)
-
-a miracle for me that i successfully went back from the bus stop to their apartment because i didn’t try remembering it at all and luckily found the right building by pulling up a photo i took at their apartment and searching up its location
-
-[12](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-12-158909990)
-
-why is here an LOL? my equivalent expression to HI GUYS AM I PREPARED I THINK NO I THINK IM COOKED
-
-[13](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-13-158909990)
-
-just checked boston weather now tbh the very long winter is kinda depressing
-
-[14](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-14-158909990)
-
-i forget why we insisted on using that shit LMAO we should just use github and git 😭🙏
-
-[15](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-15-158909990)
-
-HOLY SHIT GUYS THAT LITERALLY INCLUDES ME 🤡
-
-[16](https://stepyao.substack.com/p/i-know-its-16-but-dont-u-think-91#footnote-anchor-16-158909990)
-
-tbh i got more and more annoyed by latex somehow i mean especially when my pc stucked and when others think i can always just do these for them for free like BRO ITS NOT HARD TO LEARN THIS SHIT AT ALL
+[^16]: tbh i got more and more annoyed by latex somehow i mean especially when my pc stucked and when others think i can always just do these for them for free like BRO ITS NOT HARD TO LEARN THIS SHIT AT ALL
