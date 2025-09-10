@@ -44,11 +44,11 @@ export default function BlogPostPage() {
                 <ReactMarkdown
                   remarkPlugins={[remarkMath]}
                   rehypePlugins={[rehypeKatex]}
-                  children={meta.subtitle}
                   components={{
                     p: ({ children }) => <span>{children}</span>
                   }}
-                />
+                >{meta.subtitle}
+                </ReactMarkdown>
               </div>
             )}
             <div className="text-gray-400 mt-5">{formatDate(meta.date)}</div>

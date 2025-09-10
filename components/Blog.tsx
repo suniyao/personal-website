@@ -27,11 +27,11 @@ export default function Blog({ id, date, title, subtitle, cover }: BlogProps) {
                 <ReactMarkdown
                   remarkPlugins={[remarkMath]}
                   rehypePlugins={[rehypeKatex]}
-                  children={subtitle}
                   components={{
                     p: ({ children }) => <span>{children}</span>
-                  }}
-                />
+                  }}>
+                  {subtitle}
+                </ReactMarkdown>
               </div>
             )}
           </div>
