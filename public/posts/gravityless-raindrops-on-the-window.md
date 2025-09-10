@@ -36,7 +36,10 @@ I have been a slow burner for 17 1/12 years. Apparently I am bad at learning fro
 
 [![](https://substackcdn.com/image/fetch/$s_!N4Ws!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fedf1d625-54e8-4cf3-a5c7-1040f03b6c5c_1339x736.png)](https://substackcdn.com/image/fetch/$s_!N4Ws!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fedf1d625-54e8-4cf3-a5c7-1040f03b6c5c_1339x736.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!R2fi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F282535a2-03a5-402b-8cbc-5a9ee2227f2c_1336x738.png)](https://substackcdn.com/image/fetch/$s_!R2fi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F282535a2-03a5-402b-8cbc-5a9ee2227f2c_1336x738.png)really like the concept of 結（むす）び musubi in Your Name. 
+[![](https://substackcdn.com/image/fetch/$s_!R2fi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F282535a2-03a5-402b-8cbc-5a9ee2227f2c_1336x738.png)](https://substackcdn.com/image/fetch/$s_!R2fi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F282535a2-03a5-402b-8cbc-5a9ee2227f2c_1336x738.png)
+<div class="caption">
+really like the concept of 結（むす）び musubi in Your Name. 
+</div>
 
 Mom comforts me when I meet awful people by saying that people are like raindrops[14](https://stepyao.substack.com/p/gravityless-raindrops-on-the-window#footnote-14-148573217), sliding quickly down the window of life and they have nearly 0 impact on my life. But what if I really want you to stay in my life? I wish gravity didn't exist, so they could linger on my window longer. If that's not possible, then please, please, at least splash against the glass and reappear in my life. 再见, we shall meet again.
 

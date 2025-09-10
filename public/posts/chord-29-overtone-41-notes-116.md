@@ -21,9 +21,9 @@ i left school and Shanghai early on the last day of September to go back to Huzh
 
 but i cannot tell whether missing the chance to see old friends should be accompanied by a sense of relief (still, i did try my best to be on time). i avoid having general connections with old friends. i miss them, and i do want to stay in touch, but my fear of “what if i won’t appreciate her updated version” weighs much more. what if we may have really changed based on completely different life traces, and our views and interests are just mutually exclusive? i build up perfect versions for people i know and they are static, and they are outdated, and as i avoid face-to-face interactions with them they are never going to get updated. 
 
-~~fortunately, or unfortunately, whatever, this is at least not the case for my 12-year friend because we really are just as childish as we were in primary school and i feel safe enough that neither of us is going to change~~ _ ~~rapidly~~_
+~~fortunately, or unfortunately, whatever, this is at least not the case for my 12-year friend because we really are just as childish as we were in primary school and i feel safe enough that neither of us is going to change _rapidly_~~
 
-but did i change a lot from who i was 3 years ago? definitely yes. i got bored of pressing shift at the beginning of every sentence and every “I” (something i wondered a lot since primary school is what’s special about “I” that you have to capitalize it); i just purchased a mouse to learn blender and got used to it; i tried to reflect and record more than i did before; i started value liberal arts more (which is tough but i at least tried to convince myself that yes they are interesting!!); i got better at piano freestyling and song transcribing, and my left hand got bigger[^6]; i now prefer to made new friends with different intended majors because i can get more inspirations from them; i care less of how people view me[^7];i also learned that making myself looking unhinged sometimes acts as a camouflage.
+but did i change a lot from who i was 3 years ago? definitely yes. i got bored of pressing shift at the beginning of every sentence and every “I” (something i wondered a lot since primary school is what’s special about “I” that you have to capitalize it); i just purchased a mouse to learn blender and got used to it; i tried to reflect and record more than i did before; i started value liberal arts more (which is tough but i at least tried to convince myself that yes they are interesting!!); i got better at piano freestyling and song transcribing, and my left hand got bigger[^6]; i now prefer to made new friends with different intended majors because i can get more inspirations from them; i care less of how people view me[^7]; i also learned that making myself looking unhinged sometimes acts as a camouflage.
 
 monthly updates:
 
@@ -42,12 +42,22 @@ besides, college app is starting[^10] and it has been killing my mental state. m
 
 but anyway, the expected grade exam is, at least, over and i allowed myself a short break to play video games, learn math and fancy things[^11], draw[^12]!
 
-[![](https://substackcdn.com/image/fetch/$s_!jA0t!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58882b8a-dbf3-467e-9bf1-f2fc2aa20687_1920x1047.png)](https://substackcdn.com/image/fetch/$s_!jA0t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58882b8a-dbf3-467e-9bf1-f2fc2aa20687_1920x1047.png)tales of the black forest, the 烟火 (firework) producer’s maiden work. short story but very interesting! the pixel art style looks similar to stardrew valley. played together with L
+[![](https://substackcdn.com/image/fetch/$s_!jA0t!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58882b8a-dbf3-467e-9bf1-f2fc2aa20687_1920x1047.png)](https://substackcdn.com/image/fetch/$s_!jA0t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58882b8a-dbf3-467e-9bf1-f2fc2aa20687_1920x1047.png)
+<div class="caption">
+tales of the black forest, the 烟火 (firework) producer’s maiden work. short story but very interesting! the pixel art style looks similar to stardrew valley. played together with L
+</div>
 
-[![Image](https://substackcdn.com/image/fetch/$s_!55lx!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F568a92e3-ccdb-4dbd-8131-f89c728a6ca8_882x662.webp)](https://substackcdn.com/image/fetch/$s_!55lx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F568a92e3-ccdb-4dbd-8131-f89c728a6ca8_882x662.webp)omori and i stopped playing it since ESPR and now i am picking it up again LOL. need to take long time wondering around and battling and sometimes i lose patience (which is the main reason why i started on 7.28 but haven’t finished yet) but the storyline is so interesting 
+[![Image](https://substackcdn.com/image/fetch/$s_!55lx!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F568a92e3-ccdb-4dbd-8131-f89c728a6ca8_882x662.webp)](https://substackcdn.com/image/fetch/$s_!55lx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F568a92e3-ccdb-4dbd-8131-f89c728a6ca8_882x662.webp)
 
-[![Image](https://substackcdn.com/image/fetch/$s_!SnON!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd763ed58-93e1-49db-82af-8e1573b8ac0c_1178x662.webp)](https://substackcdn.com/image/fetch/$s_!SnON!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd763ed58-93e1-49db-82af-8e1573b8ac0c_1178x662.webp)to the moon! with discount! i just downloaded but would probably play it after college app 💀 heard it has a very long storyline. have been fascinated by the ost for 3 years omg 
+<div class="caption">
+omori and i stopped playing it since ESPR and now i am picking it up again LOL. need to take long time wondering around and battling and sometimes i lose patience (which is the main reason why i started on 7.28 but haven’t finished yet) but the storyline is so interesting 
+</div>
 
+[![Image](https://substackcdn.com/image/fetch/$s_!SnON!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd763ed58-93e1-49db-82af-8e1573b8ac0c_1178x662.webp)](https://substackcdn.com/image/fetch/$s_!SnON!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd763ed58-93e1-49db-82af-8e1573b8ac0c_1178x662.webp)
+
+<div class="caption">
+to the moon! with discount! i just downloaded but would probably play it after college app 💀 heard it has a very long storyline. have been fascinated by the ost for 3 years omg 
+</div>
 
 [^1]: 11:30 am Sept 10, as a teacher’s day gift for my supervisor 
 
