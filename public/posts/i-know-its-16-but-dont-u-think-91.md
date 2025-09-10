@@ -77,6 +77,7 @@ we were going for the roast chicken too! last year, my three HMMT teammates and 
 <div class="caption">
 1) the roast chicken we had last year 2) what we bought this year, they changed the container to reduce the cost bruh 3) ate with salad! you can see it's less roasted than the last year's and i was *a little bit disappointed*
 </div>
+
 in the evening both Jenny and Wendy went out, and Brady was at home. we first went to the library nearby and saw some very cheap second-hand books and i bought two with only $4 — one was a novel with a decent rating on goodreads and the other one was a taiwanese comic book on introduction to Zhuang Zhou philosophy which seemed to be high quality. on the way to the library and back he also introduced a bit of lexington downtown / lexington high school to me. tbh before i didn’t realize this lexington is the exact place of the famous _shot heard 'round the world_. i originally thought it was just the same name. if [x] happened in Pudong Shanghai we will only refer it to [x] in Shanghai instead of in Pudong to represent a greater area which everybody knows while Americans generally seem more related to the small town they lived in. ig this might be a cultural thing? ~~counterexample: tiananmen 1989 and we dont call it as beijing 1989~~
 <div class="image-row">
 
@@ -87,6 +88,7 @@ in the evening both Jenny and Wendy went out, and Brady was at home. we first we
 <div class="caption">
 1) chinese corner in the library 2) coco milk tea in lexington??!! that was my childhood thing
 </div>
+
 Brady cooked steak for me after we went back! so tasty and was literally a torture of having it in front of me while i was in the blueprint online team-formation session and couldn’t really eat with the camera on LOL
 
 [![](https://substackcdn.com/image/fetch/$s_!xUJl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0fc5ed58-a56d-4cf8-b89d-b6fa66f112f3_2082x960.jpeg)](https://substackcdn.com/image/fetch/$s_!xUJl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0fc5ed58-a56d-4cf8-b89d-b6fa66f112f3_2082x960.jpeg)
@@ -129,7 +131,9 @@ whatever i was in my trough of social skills cycle and acting like an npc but i 
 
 [![](https://substackcdn.com/image/fetch/$s_!187I!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68212a51-bb6a-415d-8ab4-be55535000fb_913x472.png)](https://substackcdn.com/image/fetch/$s_!187I!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68212a51-bb6a-415d-8ab4-be55535000fb_913x472.png)
 <div class="caption">
+
 maybe should review for my econ exam instead but this is ~~business~~ my social skills cycle
+
 </div>
 
 for the two days i got a very rare healthy sleeping schedule from 1am to 6am (better than my normal `random.randint(1,4)`am - 7:45am) and also chipped in a bit of chores to help. i felt a lil awkward wearing the HMMT Feb 2024 highly-saturated green t-shirt so put on blueprint swag as soon as i got it but it turned out so funny that since i was wearing the swag many participants / also some staff thought i was also organizer LMAO including a few fellow participants asking me how to check in and orgs fair speaker requesting if i could get her an extra desk
@@ -145,6 +149,7 @@ i took the advanced web dev track and was glad that i learned some react nodejs 
 <div class="caption">
 a meme created based on the workshop slides, this is an accurate generalization of what MIT version workshops/talks/lectures are like LOL
 </div>
+
 my bp teammates all have attended hackathons before so they were experienced especially Avishi who has competed in 6 before and started coding at 7 tho still a sophomore studying algebra?? with them three i got a sense of how hackathon works. we brainstormed many ideas after the workshops and chose one, specified how many pages and functions we are going to include and who’s going to work on back/front end design. for me since i’m more familiar with frontend stuff so i was asked to build a figma UI prototype the night before the hackathon, and it was really useful during the hackathon because i don’t need to think of the layout but just code it up, referring to the figma project. 
 
 we decided to take one of the ideas called “DailyCode” as what we are going to work on: it gives everyday prompts for broader interest-driven programming which is where it differs from CP/codeforces with upvotes/downvotes on others projects (like stackexchange), leaderboard, project cards for everyone who submitted. imo it might seem to be more interesting if more functions are built but with the prototype built in 8hrs i kinda felt it somewhat lacks creativity. (i also mentioned a coworking meetup map like a high school class can generate a unique session code and enter everyone’s college and have a beautified map of where everyone is but it got discarded because the subject is too casual and they changed it to a map of NGOs to make it _greater_ but appeared to be less reasonable so it got ditched sobbing)
@@ -155,12 +160,14 @@ i also met up with Brian from 9 to 10pm! turns out he was hosting Bruce — the 
 <div class="caption">
 i dont get it why there’s boba called PIKACHU
 </div>
+
 The next day was HACKATHON DAY RAHHHH — and it kicked off with me dropping GoGurt multiple times when we were trying to carry them to the media lab 💀. I had them stacked on top of cool plus but every time I took a few steps, the GoGurts would slowly start sliding off ahhhhh and then drop to the ground. so we ended up calling a cool staff who owns a car 🙏 and she drove us there.
 
 [![](https://substackcdn.com/image/fetch/$s_!zfUr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dacfe79-6d47-4703-b773-d8a7132855ac_858x883.jpeg)](https://substackcdn.com/image/fetch/$s_!zfUr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dacfe79-6d47-4703-b773-d8a7132855ac_858x883.jpeg)
 <div class="caption">
 the time i took the pic i didn’t realize it’s so hard holding the evil GoGurts but i made them <i>pay back</i> by eating 3 during hackathon iirc 😎
 </div>
+
 i did come up with a better solution of using my puffer to wrap those up and hold the entire puffer wrap LMAO but was asked to put it back on by Janet since i was only wearing 2 clothes then. i still need to claim:
 
 $$(-7^\circ \text{C}=19^\circ \text{F})_{\text{Boston}}>(9^\circ \text{C}=48^\circ \text{F})_{\text{Shanghai}}$$

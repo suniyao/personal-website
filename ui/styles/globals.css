@@ -81,9 +81,18 @@ body {
 
 .caption {
   margin: 30px;
-  font-family: 'Zen Old Mincho', 'Cactus Classical Serif', 'Spectral', serif;
   font-size: smaller;
   text-align: center;
   margin-top: -10px;
   color: #888888;
+  font-family: 'Spectral', serif;
+}
+
+.caption:lang(zh),
+.caption:lang(ja) {
+  font-family: 'Zen Old Mincho', serif;
+}
+
+#footnote-label {
+  font-family: 'Cormorant SC', serif;
 }

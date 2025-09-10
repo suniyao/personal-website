@@ -6,7 +6,7 @@
 }
 
 .reactMarkDown h2 {
-  font-family: 'Cormorant SC', serif;
+  font-family: 'Spectral', serif;
   font-size: 25px;
   font-style: normal;
   border-bottom: 1px solid #c8c8c8;
@@ -35,14 +35,22 @@
   max-height: 50vh;
 }
 
-.reactMarkDown p { 
+.reactMarkDown p {
   font-size: 18px;
   margin-top: 0.8em;
   margin-bottom: 0.8em;
-  font-weight: 400; 
-  font-family: 'Zen Old Mincho', 'Cactus Classical Serif', 'Spectral', serif;
+  font-weight: 400;
   font-style: normal;
   white-space: pre-wrap;
+  font-family: 'Spectral', serif;
+}
+
+/* Use Zen Old Mincho for Japanese and Chinese paragraphs */
+.reactMarkDown p:lang(ja),
+.reactMarkDown p:lang(zh),
+.reactMarkDown p:lang(zh-CN),
+.reactMarkDown p:lang(zh-TW) {
+  font-family: 'Zen Old Mincho', 'Cactus Classical Serif', serif;
 }
 
 .reactMarkDown [data-footnote-ref] {
@@ -71,12 +79,20 @@
   counter-increment: footnote;
   margin-right: 0.5em;
   color: #bdbdbd;
-  font-family: 'Zen Old Mincho', 'Cactus Classical Serif', 'Spectral', serif;
+  font-family: 'Spectral', serif;
   font-size: 0.95em;
   flex-shrink: 0;
   align-self: flex-start;
   position: relative;
   top: 10px;
+}
+
+/* Use Zen Old Mincho for Chinese/Japanese footnote numbers */
+.reactMarkDown li[id^="user-content-fn-"]:lang(ja)::before,
+.reactMarkDown li[id^="user-content-fn-"]:lang(zh)::before,
+.reactMarkDown li[id^="user-content-fn-"]:lang(zh-CN)::before,
+.reactMarkDown li[id^="user-content-fn-"]:lang(zh-TW)::before {
+  font-family: 'Zen Old Mincho', serif;
 }
 
 /* Initialize the footnote counter */
