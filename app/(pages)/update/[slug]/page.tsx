@@ -10,7 +10,6 @@ import { formatDate } from '@/lib/formatDate'
 import 'katex/dist/katex.min.css';
 import style from '@/ui/styles/markdown-styles.module.css';
 import rehypeRaw from 'rehype-raw';
-import { components } from '@/components/MdStyle';
 
 
 export default function BlogPostPage() {
@@ -55,7 +54,7 @@ export default function BlogPostPage() {
             <div className="text-gray-400 mt-5">{formatDate(meta.date)}</div>
           </div>
         )}
-        <article className={`prose prose-invert prose-lg max-w-none ${style.reactMarkDown}`}>
+        <article className={style.reactMarkDown}>
           <ReactMarkdown
             rehypePlugins={[rehypeKatex, rehypeRaw]}
             remarkPlugins={[remarkMath, remarkGfm]}
