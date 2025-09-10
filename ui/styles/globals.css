@@ -96,3 +96,7 @@ body {
 #footnote-label {
   font-family: 'Cormorant SC', serif;
 }
+
+.date {
+  font-family: 'Cormorant SC', 'Spectral', serif;
+}

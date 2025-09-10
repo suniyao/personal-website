@@ -51,7 +51,7 @@ export default function BlogPostPage() {
                 </ReactMarkdown>
               </div>
             )}
-            <div className="text-gray-400 mt-5">{formatDate(meta.date)}</div>
+            <div className="text-gray-400 mt-5 date">{formatDate(meta.date)}</div>
           </div>
         )}
         <article className={style.reactMarkDown}>

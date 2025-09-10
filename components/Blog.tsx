@@ -36,7 +36,7 @@ export default function Blog({ id, date, title, subtitle, cover }: BlogProps) {
             )}
           </div>
           {/* date goes to the bottom */}
-          <div className="text-gray-500 text-sm font-mono">
+          <div className="text-gray-500 text-sm font-mono date">
             {formatDate(date)}
           </div>
         </a>
