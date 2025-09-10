@@ -1,7 +1,11 @@
 import { geologica } from "@/ui/fonts";
 import Image from "next/image";
+import { getSortedPostsData } from "@/lib/posts";
+import Blog from "@/components/Blog";
 
-export default function Update(){
+export default async function Update() {
+  const allPostsData = await getSortedPostsData();
+
   return (
     <div>
       <div className={`${geologica.className} flex flex-col font-semibold text-[100px]`}>
@@ -18,14 +22,13 @@ export default function Update(){
           height={100}
         />
       </a>
-      <Image
-        src={"/under_construction.png"}
-        alt="under construction"
-        width={400}
-        height={400}
-        className="items-center justify-center m-auto"
-        />
-      <div className="relative -top-30 text-[15px] text-gray-500 text-center">no updates yet (fetching in dev), check back later!</div>
+      <div className="">
+        <div className="flex flex-col items-center divide-y divide-gray-700">
+          {allPostsData.map(({ id, date, title, subtitle, cover }: { id: string; date: string; title: string; subtitle: string; cover: string;}) => (
+            <Blog key={id} id={id} date={date} title={title} subtitle={subtitle} cover={cover} />
+          ))}
+        </div>
+      </div>
     </div>
-  )
+  );
 }
