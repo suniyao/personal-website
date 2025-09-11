@@ -194,7 +194,7 @@ export default function SpotifyNowPlaying() {
       </div>
       
       <div 
-        className="rounded-2xl backdrop-blur-md bg-white/10 dark:bg-gray-900/20 border border-white/20 dark:border-gray-700/30 hover:bg-white/20 dark:hover:bg-gray-800/30 transition-all duration-300 shadow-xl group w-105 relative overflow-hidden"
+        className="rounded-2xl backdrop-blur-md bg-white/10 dark:bg-gray-900/20 border border-black/5 dark:border-white/20 dark:border-gray-700/30 hover:bg-white/20 dark:hover:bg-gray-800/30 transition-all duration-300 group w-105 relative overflow-hidden"
         style={{
           background: currentTrack.isPlaying ? `linear-gradient(to right, 
             ${dominantColorLeft} 0%, 

@@ -59,26 +59,29 @@
 
 
 .reactMarkDown [data-footnote-backref] {
-  color: dimgrey;
+  color: #c8c8c8;
 }
 
 /* Add numbering before footnote list items, inline with content */
+/* Footnote list item styles */
 .reactMarkDown li[id^="user-content-fn-"] {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  color: #c8c8c8;
+  color: #888888;
   margin-top: -10px;
   margin-bottom: -10px;
   margin-left: 30px;
   margin-right: 30px;
 }
 
+
+
 .reactMarkDown li[id^="user-content-fn-"]::before {
   content: counter(footnote);
   counter-increment: footnote;
   margin-right: 0.5em;
-  color: #bdbdbd;
+  color: #c8c8c8;
   font-family: 'Spectral', serif;
   font-size: 0.95em;
   flex-shrink: 0;
@@ -101,17 +104,39 @@
 }
 
 .reactMarkDown blockquote {
-  border-left: 3px solid #888888;
+  border-left: 3px solid #bdbdbd;
   padding-left: 20px;
 }
 
 .reactMarkDown hr {
-  color: #333333;
+  color: #dddddd;
 }
 
 /* For responsive design */
 @media (max-width: 768px) {
   .reactMarkDown .image-row {
     flex-direction: column;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .reactMarkDown [data-footnote-ref] {
+    color: #9198a1;
+  }
+  .reactMarkDown [data-footnote-backref] {
+    color: #888;
+  }
+  .reactMarkDown li[id^="user-content-fn-"] {
+    color: #c8c8c8;
+  }
+  .reactMarkDown li[id^="user-content-fn-"]::before {
+    color: #888;
+  }
+  .reactMarkDown blockquote {
+    border-left: 3px solid #888888;
+  }
+  .reactMarkDown hr {
+    color: #333333;
   }
 }

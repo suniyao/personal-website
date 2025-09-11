@@ -21,7 +21,7 @@ export default function Project(){
           </p>
         </Card>
 
-        <Card title="PathTogether" link="https://pathtogether.vercel.app">
+        <Card title="PathTogether" link="https://github.com/suniyao/pathtogether">
           <p>
            A web application used to make everyone stay connected after working together, whether as classmate or alumni, co-campers or online friends in the same server, by generating a common map session code and save everyone's location there after filling out.
           </p>

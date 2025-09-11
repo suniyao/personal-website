@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className={`${openSans.className} h-full flex flex-col text-gray-900`}>
         <nav className="absolute inset-x-0 z-50 h-30 flex items-center">
           <div className="max-w-7xl mx-auto flex justify-end w-full sm:px-10 lg:px-20">
-            <div className="backdrop-blur-sm rounded-lg py-2 shadow-sm">
+            <div className="py-2">
               <NavBar />
             </div>
           </div>

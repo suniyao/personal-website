@@ -9,7 +9,7 @@ type CardProps = {
 
 export default function Card({title, link, accentColor, children}: CardProps) {
   const cardContent = (
-    <div className={`text-white border-white border-[3px] w-auto min-w-60 max-w-120 p-5 ${accentColor ? `hover:bg-${accentColor}` : link && `hover:bg-gray-800`}`}>
+    <div className={`border-black border-[3px] w-auto min-w-60 max-w-120 p-5 ${accentColor ? `hover:bg-${accentColor}` : link && `hover:bg-gray-200 dark:hover:bg-gray-800`} dark:border-white`}>
       <div className={`${geologica.className} flex flex-col font-semibold text-[35px] mb-3`}>
         {title}
       </div>

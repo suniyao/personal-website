@@ -16,7 +16,7 @@ type BlogProps = {
 export default function Blog({ id, date, title, subtitle, cover }: BlogProps) {
 
   return (
-    <div className="flex flex-col w-245 px-15 hover:bg-gray-800 transition-colors py-5 px-auto">
+    <div className="flex flex-col w-245 px-15 hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors py-5 px-auto">
       <div className="flex justify-between">
         {/* left side */}
         <a key={id} href={`/update/${id}`} className="w-160 flex flex-col justify-between" >

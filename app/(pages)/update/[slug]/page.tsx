@@ -38,7 +38,7 @@ export default function BlogPostPage() {
       <div className="container mx-auto px-4 max-w-3xl">
         {meta && (
           <div className="mb-8">
-            <h1 className="text-4xl font-extrabold text-white mb-4">{meta.title}</h1>
+            <h1 className="text-4xl font-extrabold mb-4">{meta.title}</h1>
             {meta.subtitle && (
               <div className="text-gray-400 italic text-[20px]">
                 <ReactMarkdown
