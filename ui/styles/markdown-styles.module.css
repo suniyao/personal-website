@@ -42,16 +42,9 @@
   font-weight: 300;
   font-style: normal;
   white-space: pre-wrap;
-  font-family: 'Spectral', serif;
+  font-family: 'Cactus Classical Serif','Spectral', serif;
 }
 
-/* Use Zen Old Mincho for Japanese and Chinese paragraphs */
-.reactMarkDown p:lang(ja),
-.reactMarkDown p:lang(zh),
-.reactMarkDown p:lang(zh-CN),
-.reactMarkDown p:lang(zh-TW) {
-  font-family: 'Zen Old Mincho', 'Cactus Classical Serif', serif;
-}
 
 .reactMarkDown [data-footnote-ref] {
   color: #9198a1;
@@ -82,7 +75,7 @@
   counter-increment: footnote;
   margin-right: 0.5em;
   color: #c8c8c8;
-  font-family: 'Spectral', serif;
+  font-family: 'Cactus Classical Serif','Spectral', serif;
   font-size: 0.95em;
   flex-shrink: 0;
   align-self: flex-start;
