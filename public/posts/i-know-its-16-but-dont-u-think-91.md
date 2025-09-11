@@ -131,9 +131,7 @@ whatever i was in my trough of social skills cycle and acting like an npc but i 
 
 [![](https://substackcdn.com/image/fetch/$s_!187I!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68212a51-bb6a-415d-8ab4-be55535000fb_913x472.png)](https://substackcdn.com/image/fetch/$s_!187I!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68212a51-bb6a-415d-8ab4-be55535000fb_913x472.png)
 <div class="caption">
-
-maybe should review for my econ exam instead but this is ~~business~~ my social skills cycle
-
+maybe should review for my econ exam instead but this is <s>business</s> my social skills cycle
 </div>
 
 for the two days i got a very rare healthy sleeping schedule from 1am to 6am (better than my normal `random.randint(1,4)`am - 7:45am) and also chipped in a bit of chores to help. i felt a lil awkward wearing the HMMT Feb 2024 highly-saturated green t-shirt so put on blueprint swag as soon as i got it but it turned out so funny that since i was wearing the swag many participants / also some staff thought i was also organizer LMAO including a few fellow participants asking me how to check in and orgs fair speaker requesting if i could get her an extra desk
