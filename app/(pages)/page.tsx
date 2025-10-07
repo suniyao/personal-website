@@ -53,7 +53,8 @@ export default function Home() {
         </div>
         <div className="flex justify-center lg:justify-end">
           <div className="relative group -top-45 cursor-pointer max-w-full w-full">
-            <Image 
+            <Image src={"/image.png"} alt="sleepy kitty" width={500} height={400} className="rounded-lg"/>
+            {/* <Image 
               src={"/about.png"} 
               alt="on Brooklyn Bridge, photo taken on Jul 26, 2025" 
               width={500} 
@@ -74,7 +75,7 @@ export default function Home() {
               }}
               >
               <source src="/live.mp4" type="video/mp4" />
-            </video>
+            </video> */}
           </div>
         </div>
       </div>
