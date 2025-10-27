@@ -32,7 +32,7 @@ export default function Home() {
       <div className="flex flex-row gap-20">
         <div className="w-1/2 text-[20px]">
           <div>
-            <p>Hi! I'm Stephanie, an incoming freshman at the University of California, Berkeley, interested in math, computer science, and physics. Thanks for stopping by!</p>
+            <p>Hi! I'm Stephanie, currently a freshman at the University of California, Berkeley, interested in math, computer science, and physics. Thanks for stopping by!</p>
 
               <ul className="list-disc list-inside mt-4 space-y-1">
                 Besides academic interests, I also enjoy

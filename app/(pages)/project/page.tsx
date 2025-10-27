@@ -9,7 +9,7 @@ export default function Project(){
         PROJECTS
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 w-full items-stretch justify-items-center">
-        <Card title="Opal" link="https://github.com/suniyao/opal">
+        <Card title="Graphene" link="https://github.com/suniyao/graphene">
           <p>
           An {" "} 
           <span className="inline-block">
@@ -17,7 +17,7 @@ export default function Project(){
           </span> Obsidian plugin powered by AI to help you construct a better second brain. 
           </p>
           <p>
-            Major features include note auto-summarization and tagging, visualizable inner correlations between files, AI explanations of difficult concepts with reference to the notes, and more. 
+            Major features include note auto-summarization and tagging, improved graph view in visualizing inner correlations between files, AI explanations of difficult concepts with reference to the notes, and more. 
           </p>
         </Card>
 
