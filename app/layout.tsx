@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@/ui/styles/globals.css"
 import { openSans } from "@/ui/fonts";
 import NavBar from "@/components/NavBar";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: "Stephanie Yao",
@@ -39,6 +40,7 @@ export default function RootLayout({
             </p>
           </div>
         </footer>
+        <Analytics/>
       </body>
     </html>
   );
