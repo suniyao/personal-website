@@ -10,21 +10,9 @@ export default function Project(){
       </div>
       <div className="columns-1 md:columns-2 lg:columns-3 gap-6 sm:gap-8 md:gap-10 mt-6 sm:mt-8 md:mt-10 w-full">
 
-        <Card title="reslog" link="https://github.com/suniyao/typst-resume-automator">
+        <Card title="reslog [in dev 🚧]" link="https://github.com/suniyao/typst-resume-automator">
           <p>
-            A CLI tool that streamlines resume management by automating version control, file organization, and git operations. Consolidates saving, naming, updating, and committing into one command—built for people who maintain multiple resume versions.
-          </p>
-        </Card>
-
-        <Card title="Graphene" link="https://github.com/suniyao/graphene">
-          <p>
-            An Obsidian plugin that makes semantic graph view based on content similarity using vector embeddings, with local vector embedding supported by sentence-transformers python package and alternative OpenAI embedding model, and various options for graph appearance setting including particle animation, link thickness, etc.
-          </p>
-        </Card>
-
-        <Card title="PathTogether" link="https://github.com/suniyao/pathtogether">
-          <p>
-           A web application used to make everyone stay connected after working together, whether as classmate or alumni, co-campers or online friends in the same server, by generating a common map session code and save everyone's location there after filling out.
+            A CLI tool that streamlines resume management by automating version control, file organization, and git operations. Consolidates saving, naming, updating, and committing into one command -- built for people who keep track of multiple resume versions.
           </p>
         </Card>
 
@@ -34,6 +22,12 @@ export default function Project(){
           </p>
           <p>
             Connect digits from 0 to 9 by dragging across the grid. Form numbers that are prime. The more digits, the better the score.
+          </p>
+        </Card>
+
+        <Card title="Graphene" link="https://github.com/suniyao/graphene">
+          <p>
+            An Obsidian plugin that makes semantic graph view based on content similarity using vector embeddings, with local vector embedding supported by sentence-transformers python package and alternative OpenAI embedding model, and various options for graph appearance setting including particle animation, link thickness, etc.
           </p>
         </Card>
 
@@ -55,6 +49,17 @@ export default function Project(){
           </p>
           <p>
             ATT: user must be in the same server as the bot, and the bot must have permission to read the user's activity.
+          </p>
+        </Card>
+      </div>
+
+      <div className={`${geologica.className} text-gray-400 flex flex-col font-semibold text-[30px] sm:text-[50px] md:text-[60px] lg:text-[80px] mt-15`}>
+        INACTIVE
+      </div>
+      <div className="columns-1 md:columns-2 lg:columns-3 gap-6 sm:gap-8 md:gap-10 mt-6 sm:mt-8 md:mt-10 w-full">
+        <Card title="PathTogether" link="https://github.com/suniyao/pathtogether">
+          <p>
+            A web application used to make everyone stay connected after working together, whether as classmate or alumni, co-campers or online friends in the same server, by generating a common map session code and save everyone's location there after filling out.
           </p>
         </Card>
       </div>
