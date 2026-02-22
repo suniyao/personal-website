@@ -17,8 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <body className={`${openSans.className} h-full flex flex-col text-gray-900`}>
-        <nav className="absolute inset-x-0 z-50 h-30 flex items-center">
-          <div className="max-w-7xl mx-auto flex justify-end w-full sm:px-10 lg:px-20">
+        <nav className="absolute inset-x-0 z-50 h-20 sm:h-30 flex items-center">
+          <div className="max-w-7xl mx-auto flex justify-end w-full px-12 sm:px-10 lg:px-20">
             <div className="py-2">
               <NavBar />
             </div>
@@ -26,16 +26,16 @@ export default function RootLayout({
         </nav>
 
         {/* Main Content - With proper spacing from edges */}
-        <main className="flex-1 px-5 sm:px-10 lg:px-20 pt-24 pb-8">
+        <main className="flex-1 px-12 sm:px-10 lg:px-20 pt-20 sm:pt-24 pb-6 sm:pb-8">
           <div className="max-w-7xl mx-auto">
             {children}
           </div>
         </main>
 
         {/* Footer - Consistent spacing */}
-        <footer className="px-5 sm:px-10 lg:px-20 py-8">
+        <footer className="px-12 sm:px-10 lg:px-20 py-6 sm:py-8">
           <div className="max-w-7xl mx-auto text-center">
-            <p className="text-[15px] text-gray-600">
+            <p className="text-[13px] sm:text-[15px] text-gray-600">
               © Copyright {new Date().getFullYear()} Stephanie Yao.
             </p>
           </div>

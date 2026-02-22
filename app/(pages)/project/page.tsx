@@ -5,10 +5,10 @@ import { CustomLink } from "@/components/Links";
 export default function Project(){
   return (
     <div>
-      <div className={`${geologica.className} flex flex-col font-semibold text-[100px]`}>
+      <div className={`${geologica.className} flex flex-col font-semibold text-[40px] sm:text-[60px] md:text-[80px] lg:text-[100px]`}>
         PROJECTS
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 w-full items-stretch justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10 mt-6 sm:mt-8 md:mt-10 w-full items-stretch justify-items-center">
         <Card title="Graphene" link="https://github.com/suniyao/graphene">
           <p>
             An Obsidian plugin that makes semantic graph view based on content similarity using vector embeddings, with local vector embedding supported by sentence-transformers python package and alternative OpenAI embedding model, and various options for graph appearance setting including particle animation, link thickness, etc.

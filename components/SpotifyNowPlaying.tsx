@@ -185,7 +185,7 @@ export default function SpotifyNowPlaying() {
   return (
     <div className="w-full max-w-md">
       <div className="flex items-center gap-2 text-gray-600 dark:text-gray-300 mb-2">
-        <span className="text-sm font-light">
+        <span className="text-xs sm:text-sm font-light">
           {currentTrack.isPlaying 
             ? 'Currently listening to' 
             : `Last played ${currentTrack.playedAt ? formatTimeAgo(currentTrack.playedAt) : ''}`
@@ -194,7 +194,7 @@ export default function SpotifyNowPlaying() {
       </div>
       
       <div 
-        className="rounded-2xl backdrop-blur-md bg-white/10 dark:bg-gray-900/20 border border-black/5 dark:border-white/20 dark:border-gray-700/30 hover:bg-white/20 dark:hover:bg-gray-800/30 transition-all duration-300 group w-105 relative overflow-hidden"
+        className="rounded-2xl backdrop-blur-md bg-white/10 dark:bg-gray-900/20 border border-black/5 dark:border-white/20 dark:border-gray-700/30 hover:bg-white/20 dark:hover:bg-gray-800/30 transition-all duration-300 group w-full max-w-105 relative overflow-hidden"
         style={{
           background: currentTrack.isPlaying ? `linear-gradient(to right, 
             ${dominantColorLeft} 0%, 
@@ -202,15 +202,15 @@ export default function SpotifyNowPlaying() {
             rgba(255,255,255,0.05)` : "rgba(255,255,255,0.03)"
         }}
       >
-        <div className='relative flex items-center gap-3 p-4 z-20'>
+        <div className='relative flex items-center gap-2 sm:gap-3 p-3 sm:p-4 z-20'>
           {currentTrack.albumImageUrl && (
-            <div className="relative" style={{ width: 56, minWidth: 56, height: 56 }}>
+            <div className="relative" style={{ width: 48, minWidth: 48, height: 48 }}>
               <Image
                 src={currentTrack.albumImageUrl}
                 alt={currentTrack.album || ''}
-                width={56}
-                height={56}
-                className={`rounded-lg shadow-lg shadow-black/30 group-hover:shadow-xl transition-all duration-300 ${
+                width={48}
+                height={48}
+                className={`rounded-lg shadow-lg shadow-black/30 group-hover:shadow-xl transition-all duration-300 sm:w-14 sm:h-14 ${
                   currentTrack.isPlaying ? '' : 'opacity-75'
                 }`}
               />
@@ -218,12 +218,12 @@ export default function SpotifyNowPlaying() {
             </div>
           )}
           
-          <div className="flex flex-col max-w-80">
+          <div className="flex flex-col flex-1 min-w-0 max-w-80">
             <a
               href={currentTrack.songUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className={`text-sm font-semibold truncate hover:underline transition-colors duration-300 ${
+              className={`text-xs sm:text-sm font-semibold truncate hover:underline transition-colors duration-300 ${
                 currentTrack.isPlaying 
                   ? 'text-gray-800 dark:text-gray-100' 
                   : 'text-gray-700 dark:text-gray-200'
@@ -235,7 +235,7 @@ export default function SpotifyNowPlaying() {
               href={currentTrack.artistsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs truncate text-gray-600 dark:text-gray-400 hover:underline max-w-md transition-colors duration-300"
+              className="text-[10px] sm:text-xs truncate text-gray-600 dark:text-gray-400 hover:underline transition-colors duration-300"
             >
               {currentTrack.artist}
             </a>

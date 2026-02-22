@@ -3,25 +3,25 @@ import { FaGithub, FaInstagram, FaLinkedin, FaSpotify } from "react-icons/fa";
 
 export default function Socials() {
   return (
-    <div className="flex flex-row gap-5">
+    <div className="flex flex-row gap-4 sm:gap-5">
       <a href="https://github.com/suniyao">
-        <FaGithub size={25}/>
+        <FaGithub size={22} className="sm:w-6 sm:h-6"/>
       </a>
 
       <a href="https://linkedin.com/in/stephanieysn">
-        <FaLinkedin size={25}/>
+        <FaLinkedin size={22} className="sm:w-6 sm:h-6"/>
       </a>
 
       <a href="https://open.spotify.com/user/314yf5erg4j27vjml64wotdvoj3q">
-        <FaSpotify size={25}/>
+        <FaSpotify size={22} className="sm:w-6 sm:h-6"/>
       </a>
 
       <a href="https://www.instagram.com/stephanie_also_ysn">
-        <FaInstagram size={25}/>
+        <FaInstagram size={22} className="sm:w-6 sm:h-6"/>
       </a>
 
       <a href="https://stepyao.substack.com">
-        <BsSubstack size={25}/>
+        <BsSubstack size={22} className="sm:w-6 sm:h-6"/>
       </a>
     </div>
   );
