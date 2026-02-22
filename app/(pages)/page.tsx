@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       {/* Name Section */}
-      <div className={`${geologica.className} flex flex-col font-semibold text-[40px] sm:text-[60px] md:text-[80px] lg:text-[100px]`}>
+      <div className={`${geologica.className} flex flex-col font-semibold text-[55px] sm:text-[60px] md:text-[80px] lg:text-[100px]`}>
         <div>
           <TypeAnimation
             preRenderFirstString={true}
