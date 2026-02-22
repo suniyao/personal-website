@@ -8,12 +8,12 @@ export default async function Update() {
 
   return (
     <div>
-      <div className={`${geologica.className} flex flex-col font-semibold text-[100px]`}>
+      <div className={`${geologica.className} flex flex-col font-semibold text-[40px] sm:text-[60px] md:text-[80px] lg:text-[100px]`}>
         UPDATES
       </div>
       <a
         href="https://scrapbook.hackclub.com/stephanie"
-        className="flag-link absolute -left-2"
+        className="flag-link absolute -left-2 hidden sm:block"
       >
         <Image
           src="https://assets.hackclub.com/flag-orpheus-left.svg"

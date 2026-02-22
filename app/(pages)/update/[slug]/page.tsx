@@ -34,13 +34,13 @@ export default function BlogPostPage() {
   if (!content) return <div className="text-center py-12">Loading...</div>;
 
   return (
-    <div className="min-h-screen py-8">
-      <div className="container mx-auto px-4 max-w-3xl">
+    <div className="min-h-screen py-4 sm:py-8">
+      <div className="container mx-auto px-3 sm:px-4 max-w-3xl">
         {meta && (
-          <div className="mb-8">
-            <h1 className="text-4xl font-extrabold mb-4">{meta.title}</h1>
+          <div className="mb-6 sm:mb-8">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-3 sm:mb-4">{meta.title}</h1>
             {meta.subtitle && (
-              <div className="text-gray-400 italic text-[20px]">
+              <div className="text-gray-400 italic text-[16px] sm:text-[18px] md:text-[20px]">
                 <ReactMarkdown
                   remarkPlugins={[remarkMath]}
                   rehypePlugins={[rehypeKatex]}
@@ -51,7 +51,7 @@ export default function BlogPostPage() {
                 </ReactMarkdown>
               </div>
             )}
-            <div className="text-gray-400 mt-5 date">{formatDate(meta.date)}</div>
+            <div className="text-gray-400 mt-3 sm:mt-5 date text-sm sm:text-base">{formatDate(meta.date)}</div>
           </div>
         )}
         <article className={style.reactMarkDown}>

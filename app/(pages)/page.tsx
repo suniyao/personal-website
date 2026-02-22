@@ -9,7 +9,8 @@ import Socials from "@/components/Socials";
 export default function Home() {
   return (
     <div>
-      <div className={`${geologica.className} flex flex-col font-semibold text-[100px]`}>
+      {/* Name Section */}
+      <div className={`${geologica.className} flex flex-col font-semibold text-[40px] sm:text-[60px] md:text-[80px] lg:text-[100px]`}>
         <div>
           <TypeAnimation
             preRenderFirstString={true}
@@ -24,13 +25,16 @@ export default function Home() {
             repeat={Infinity}
           />
         </div>
-        <div className="text-gray-400 -translate-y-15 flex flex-row gap-5">
+        <div className="text-gray-400 -translate-y-6 sm:-translate-y-10 md:-translate-y-15 flex flex-row gap-2 sm:gap-3 md:gap-5">
           <div>YAO</div>
           <div>:&#41;</div>
         </div>
       </div>
-      <div className="flex flex-row gap-20">
-        <div className="w-1/2 text-[20px]">
+
+      
+
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-20">
+        <div className="w-full lg:w-1/2 text-[16px] sm:text-[18px] md:text-[20px]">
           <div>
             <p>Hi! I'm Stephanie, currently a freshman at the University of California, Berkeley, interested in math, computer science, and physics. Thanks for stopping by!</p>
 
@@ -44,16 +48,26 @@ export default function Home() {
                 <li>playing random songs on the piano with my <PopUp note="(never perfect 😔)">relative pitch</PopUp></li>
               </ul>
           </div>
-          <div className="mt-10">
+          <div className="mt-6 sm:mt-10">
             <Socials />
           </div>
-          <div className="mt-45">
+
+          {/* Image First on Mobile */}
+          <div className="flex justify-center lg:hidden mb-6">
+            <div className="relative cursor-pointer max-w-full w-full">
+              <Image src={"/image.png"} alt="sleepy kitty" width={500} height={400} className="rounded-lg w-full h-auto"/>
+            </div>
+          </div>
+
+          <div className="mt-6 sm:mt-10 lg:mt-45">
             <SpotifyNowPlaying />
           </div>
         </div>
-        <div className="flex justify-center lg:justify-end">
-          <div className="relative group -top-45 cursor-pointer max-w-full w-full">
-            <Image src={"/image.png"} alt="sleepy kitty" width={500} height={400} className="rounded-lg"/>
+        
+        {/* Image for Desktop Only */}
+        <div className="hidden lg:flex justify-center lg:justify-end w-full lg:w-auto">
+          <div className="relative group lg:-top-45 cursor-pointer max-w-full w-full">
+            <Image src={"/image.png"} alt="sleepy kitty" width={500} height={400} className="rounded-lg w-full h-auto"/>
             {/* <Image 
               src={"/about.png"} 
               alt="on Brooklyn Bridge, photo taken on Jul 26, 2025" 
