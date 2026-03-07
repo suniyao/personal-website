@@ -204,13 +204,13 @@ export default function SpotifyNowPlaying() {
       >
         <div className='relative flex items-center gap-2 sm:gap-3 p-3 sm:p-4 z-20'>
           {currentTrack.albumImageUrl && (
-            <div className="relative" style={{ width: 48, minWidth: 48, height: 48 }}>
+            <div className="relative w-12 h-12 sm:w-14 sm:h-14 flex-shrink-0">
               <Image
                 src={currentTrack.albumImageUrl}
                 alt={currentTrack.album || ''}
-                width={48}
-                height={48}
-                className={`rounded-lg shadow-lg shadow-black/30 group-hover:shadow-xl transition-all duration-300 sm:w-14 sm:h-14 ${
+                fill
+                sizes="(max-width: 640px) 48px, 56px"
+                className={`rounded-lg shadow-lg shadow-black/30 group-hover:shadow-xl transition-all duration-300 object-cover ${
                   currentTrack.isPlaying ? '' : 'opacity-75'
                 }`}
               />

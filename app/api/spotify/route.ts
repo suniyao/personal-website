@@ -6,6 +6,7 @@ const refresh_token = process.env.SPOTIFY_REFRESH_TOKEN!;
 
 const basic = Buffer.from(`${client_id}:${client_secret}`).toString('base64');
 const NOW_PLAYING_ENDPOINT = 'https://api.spotify.com/v1/me/player/currently-playing';
+const RECENTLY_PLAYED_ENDPOINT = 'https://api.spotify.com/v1/me/player/recently-played?limit=1';
 const TOKEN_ENDPOINT = 'https://accounts.spotify.com/api/token';
 
 async function getAccessToken() {
@@ -61,9 +62,32 @@ export async function GET() {
       });
     }
 
-    // No current track at all
+    // Nothing currently playing, fetch recently played
+    const recentlyPlayedRes = await fetch(RECENTLY_PLAYED_ENDPOINT, {
+      headers: { Authorization: `Bearer ${access_token}` },
+    });
+
+    if (recentlyPlayedRes.status === 200) {
+      const recentData = await recentlyPlayedRes.json();
+      if (recentData.items && recentData.items.length > 0) {
+        const lastTrack = recentData.items[0];
+        return NextResponse.json({
+          isPlaying: false,
+          title: lastTrack.track.name,
+          artist: lastTrack.track.artists.map((artist: any) => artist.name).join(', '),
+          album: lastTrack.track.album.name,
+          albumImageUrl: lastTrack.track.album.images[0]?.url,
+          songUrl: lastTrack.track.external_urls.spotify,
+          timestamp: lastTrack.played_at,
+          artistsUrl: lastTrack.track.artists[0]?.external_urls.spotify,
+        });
+      }
+    }
+
+    // No current or recent track
     return NextResponse.json({ isPlaying: false });
   } catch (err) {
+      console.error('Spotify API error:', err);
       // On fetch error, treat as not playing
       return NextResponse.json({ isPlaying: false });
   }
