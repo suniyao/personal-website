@@ -2,7 +2,7 @@
 title: "gravityless raindrops on the window"
 subtitle: "How have you been feeling so far? Oh, it has been badass..."
 date: "2024-09-06"
-cover: "https://substackcdn.com/image/fetch/$s_!XVPd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01a2b911-5d5b-4560-9429-596dd99804e2_1339x753.png"
+cover: "https://substack-post-media.s3.amazonaws.com/public/images/01a2b911-5d5b-4560-9429-596dd99804e2_1339x753.png"
 ---
 
 
@@ -28,15 +28,15 @@ But other than that, it has been so great so far. Something I thank the most in 
 
 I have been a slow burner for 17 1/12 years. Apparently I am bad at learning from past camps — just like Ross '23, which I regret I didn’t join in many activities but instead was a nerd doing psets all day long. This situation, luckily, has been improved in Ross '24[^13]. But I always need a second chance to finish things without regret, while it does not appear every time. When I got off the car from PVG to home, the 30+ Celsius degree hot air started catalyzing my post-camp depression — it reminded me that I am no longer in Oxford, where I need to put on outerwear or a blanket. So did black tea at home, the weak ac, and mostly, the gradually-deepening ache of absence and loneliness served by an empty room. I count myself fortunate, for though ASPR, WARP, and SPARC hold their own allure, none could replace the unique experience I've encountered in ESPR. When D asked me which program I preferred — ASPR or WARP — I chose ASPR doubtlessly since ASPR offered a chance to travel to Taiwan freely (so ironic to think that the Chinese gov helped me by stopping me from going to ASPR..?). SPARC, with its overlap with Ross, was not in consideration. And it turns out that each twist of fate, each decision, brought me here, and I’m grateful that the threads wove together to craft this unforgettable journey.
 
-[![](https://substackcdn.com/image/fetch/$s_!nAiL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7230753d-4a75-4639-af30-a7d3c5e7632b_1339x738.png)](https://substackcdn.com/image/fetch/$s_!nAiL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7230753d-4a75-4639-af30-a7d3c5e7632b_1339x738.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/7230753d-4a75-4639-af30-a7d3c5e7632b_1339x738.png)](https://substack-post-media.s3.amazonaws.com/public/images/7230753d-4a75-4639-af30-a7d3c5e7632b_1339x738.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!HA63!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42ed05f4-62d1-4957-9272-2d387099b913_1341x739.png)](https://substackcdn.com/image/fetch/$s_!HA63!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42ed05f4-62d1-4957-9272-2d387099b913_1341x739.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/42ed05f4-62d1-4957-9272-2d387099b913_1341x739.png)](https://substack-post-media.s3.amazonaws.com/public/images/42ed05f4-62d1-4957-9272-2d387099b913_1341x739.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!XVPd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01a2b911-5d5b-4560-9429-596dd99804e2_1339x753.png)](https://substackcdn.com/image/fetch/$s_!XVPd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01a2b911-5d5b-4560-9429-596dd99804e2_1339x753.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/01a2b911-5d5b-4560-9429-596dd99804e2_1339x753.png)](https://substack-post-media.s3.amazonaws.com/public/images/01a2b911-5d5b-4560-9429-596dd99804e2_1339x753.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!N4Ws!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fedf1d625-54e8-4cf3-a5c7-1040f03b6c5c_1339x736.png)](https://substackcdn.com/image/fetch/$s_!N4Ws!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fedf1d625-54e8-4cf3-a5c7-1040f03b6c5c_1339x736.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/edf1d625-54e8-4cf3-a5c7-1040f03b6c5c_1339x736.png)](https://substack-post-media.s3.amazonaws.com/public/images/edf1d625-54e8-4cf3-a5c7-1040f03b6c5c_1339x736.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!R2fi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F282535a2-03a5-402b-8cbc-5a9ee2227f2c_1336x738.png)](https://substackcdn.com/image/fetch/$s_!R2fi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F282535a2-03a5-402b-8cbc-5a9ee2227f2c_1336x738.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/282535a2-03a5-402b-8cbc-5a9ee2227f2c_1336x738.png)](https://substack-post-media.s3.amazonaws.com/public/images/282535a2-03a5-402b-8cbc-5a9ee2227f2c_1336x738.png)
 <div class="caption">
 really like the concept of 結（むす）び musubi in Your Name. 
 </div>

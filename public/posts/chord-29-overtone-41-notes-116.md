@@ -42,18 +42,18 @@ besides, college app is starting[^10] and it has been killing my mental state. m
 
 but anyway, the expected grade exam is, at least, over and i allowed myself a short break to play video games, learn math and fancy things[^11], draw[^12]!
 
-[![](https://substackcdn.com/image/fetch/$s_!jA0t!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58882b8a-dbf3-467e-9bf1-f2fc2aa20687_1920x1047.png)](https://substackcdn.com/image/fetch/$s_!jA0t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58882b8a-dbf3-467e-9bf1-f2fc2aa20687_1920x1047.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/58882b8a-dbf3-467e-9bf1-f2fc2aa20687_1920x1047.png)](https://substack-post-media.s3.amazonaws.com/public/images/58882b8a-dbf3-467e-9bf1-f2fc2aa20687_1920x1047.png)
 <div class="caption">
 tales of the black forest, the 烟火 (firework) producer’s maiden work. short story but very interesting! the pixel art style looks similar to stardrew valley. played together with L
 </div>
 
-[![Image](https://substackcdn.com/image/fetch/$s_!55lx!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F568a92e3-ccdb-4dbd-8131-f89c728a6ca8_882x662.webp)](https://substackcdn.com/image/fetch/$s_!55lx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F568a92e3-ccdb-4dbd-8131-f89c728a6ca8_882x662.webp)
+[![Image](https://substack-post-media.s3.amazonaws.com/public/images/568a92e3-ccdb-4dbd-8131-f89c728a6ca8_882x662.webp)](https://substack-post-media.s3.amazonaws.com/public/images/568a92e3-ccdb-4dbd-8131-f89c728a6ca8_882x662.webp)
 
 <div class="caption">
 omori and i stopped playing it since ESPR and now i am picking it up again LOL. need to take long time wondering around and battling and sometimes i lose patience (which is the main reason why i started on 7.28 but haven’t finished yet) but the storyline is so interesting 
 </div>
 
-[![Image](https://substackcdn.com/image/fetch/$s_!SnON!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd763ed58-93e1-49db-82af-8e1573b8ac0c_1178x662.webp)](https://substackcdn.com/image/fetch/$s_!SnON!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd763ed58-93e1-49db-82af-8e1573b8ac0c_1178x662.webp)
+[![Image](https://substack-post-media.s3.amazonaws.com/public/images/d763ed58-93e1-49db-82af-8e1573b8ac0c_1178x662.webp)](https://substack-post-media.s3.amazonaws.com/public/images/d763ed58-93e1-49db-82af-8e1573b8ac0c_1178x662.webp)
 
 <div class="caption">
 to the moon! with discount! i just downloaded but would probably play it after college app 💀 heard it has a very long storyline. have been fascinated by the ost for 3 years omg 
