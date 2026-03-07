@@ -2,7 +2,7 @@
 title: "chord (29), overtone (41), notes (116)"
 subtitle: "is the thing i typed the most frequently for the first half september and now it's over"
 date: "2024-10-02"
-cover: "https://hc-cdn.hel1.your-objectstorage.com/s/v3/f6d9cc2b27ed16487dd0255700af9b5e84da67e2_image.png"
+cover: "/posts/images/game.png"
 ---
 
 “extracting music notes from chords by applying and improving fourier transform” is the title of my extended essay. i finished it[^1], started enjoying music[^2], felt relief, but at the same time, the mixed void limbo just kicked the mind-door — i live in the wrap of music.
@@ -29,11 +29,11 @@ monthly updates:
 
 this month has been really busy and stressful for me? hopefully, i kinda survived with some ✨unexpected good luck✨:
 
-  * both the chem and physics exams are _kinda hard_ and i got 1 point above the 7 boundaries for both LOL did make many stupid mistakes
+* both the chem and physics exams are _kinda hard_ and i got 1 point above the 7 boundaries for both LOL did make many stupid mistakes
 
-  * got A for my extended essay and i am actually proud of myself because i might create real contribution (!!) in the subject that i am interested in instead of just doing junk research by paraphrasing existing papers and plagiarizing github code[^8]
+* got A for my extended essay and i am actually proud of myself because i might create real contribution (!!) in the subject that i am interested in instead of just doing junk research by paraphrasing existing papers and plagiarizing github code[^8]
 
-  * got A in TOK: i was kinda depressed the weekend before TOK exam because i thought the composition of eg grade contained the exhibition poster (scored 6/10) instead of the exhibition commentary (8/10)[^9] and thought i need to have 8/10 for the monthly essay. did get 8/10 though which is pretty out of expectation!🫣 
+* got A in TOK: i was kinda depressed the weekend before TOK exam because i thought the composition of eg grade contained the exhibition poster (scored 6/10) instead of the exhibition commentary (8/10)[^9] and thought i need to have 8/10 for the monthly essay. did get 8/10 though which is pretty out of expectation!🫣 
 
 
 
@@ -42,22 +42,11 @@ besides, college app is starting[^10] and it has been killing my mental state. m
 
 but anyway, the expected grade exam is, at least, over and i allowed myself a short break to play video games, learn math and fancy things[^11], draw[^12]!
 
-[![](https://substack-post-media.s3.amazonaws.com/public/images/58882b8a-dbf3-467e-9bf1-f2fc2aa20687_1920x1047.png)](https://substack-post-media.s3.amazonaws.com/public/images/58882b8a-dbf3-467e-9bf1-f2fc2aa20687_1920x1047.png)
-<div class="caption">
-tales of the black forest, the 烟火 (firework) producer’s maiden work. short story but very interesting! the pixel art style looks similar to stardrew valley. played together with L
-</div>
+![](https://substack-post-media.s3.amazonaws.com/public/images/58882b8a-dbf3-467e-9bf1-f2fc2aa20687_1920x1047.png "tales of the black forest, the 烟火 (firework) producer’s maiden work. short story but very interesting! the pixel art style looks similar to stardrew valley. played together with L")
 
-[![Image](https://substack-post-media.s3.amazonaws.com/public/images/568a92e3-ccdb-4dbd-8131-f89c728a6ca8_882x662.webp)](https://substack-post-media.s3.amazonaws.com/public/images/568a92e3-ccdb-4dbd-8131-f89c728a6ca8_882x662.webp)
+![Image](https://substack-post-media.s3.amazonaws.com/public/images/568a92e3-ccdb-4dbd-8131-f89c728a6ca8_882x662.webp "omori and i stopped playing it since ESPR and now i am picking it up again LOL. need to take long time wondering around and battling and sometimes i lose patience (which is the main reason why i started on 7.28 but haven’t finished yet) but the storyline is so interesting")
 
-<div class="caption">
-omori and i stopped playing it since ESPR and now i am picking it up again LOL. need to take long time wondering around and battling and sometimes i lose patience (which is the main reason why i started on 7.28 but haven’t finished yet) but the storyline is so interesting 
-</div>
-
-[![Image](https://substack-post-media.s3.amazonaws.com/public/images/d763ed58-93e1-49db-82af-8e1573b8ac0c_1178x662.webp)](https://substack-post-media.s3.amazonaws.com/public/images/d763ed58-93e1-49db-82af-8e1573b8ac0c_1178x662.webp)
-
-<div class="caption">
-to the moon! with discount! i just downloaded but would probably play it after college app 💀 heard it has a very long storyline. have been fascinated by the ost for 3 years omg 
-</div>
+![Image](https://substack-post-media.s3.amazonaws.com/public/images/d763ed58-93e1-49db-82af-8e1573b8ac0c_1178x662.webp "to the moon! with discount! i just downloaded but would probably play it after college app 💀 heard it has a very long storyline. have been fascinated by the ost for 3 years omg")
 
 [^1]: 11:30 am Sept 10, as a teacher’s day gift for my supervisor 
 

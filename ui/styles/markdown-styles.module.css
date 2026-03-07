@@ -21,8 +21,8 @@
 
 .reactMarkDown ul li {
   margin-left: 2em;
-  margin-top: -0.5em;
-  margin-bottom: -0.5em;
+  margin-top: 0.35em;
+  margin-bottom: 0.35em;
   display: list-item;
   text-align: -webkit-match-parent;
 }
@@ -33,6 +33,11 @@
   margin-right: auto;
   max-width: 400px;
   max-height: 50vh;
+}
+
+.reactMarkDown p > img {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .reactMarkDown p {

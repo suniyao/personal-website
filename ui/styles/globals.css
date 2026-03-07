@@ -79,15 +79,29 @@ body {
   border: 1px solid #c8c8c8;
 }
 
+figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption.caption,
 .caption {
   margin: 30px;
   font-size: smaller;
   text-align: center;
-  margin-top: -10px;
+  margin-top: 10px;
   color: #888888;
   font-family: 'Spectral','Cactus Classical Serif' , serif;
 }
 
+figcaption.caption:lang(zh),
+figcaption.caption:lang(ja),
 .caption:lang(zh),
 .caption:lang(ja) {
   font-family: 'Zen Old Mincho', serif;

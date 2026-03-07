@@ -17,10 +17,6 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'substack-post-media.s3.amazonaws.com',
       },
-      {
-        protocol: 'https',
-        hostname: 'hc-cdn.hel1.your-objectstorage.com',
-      },
     ],
   },
 };

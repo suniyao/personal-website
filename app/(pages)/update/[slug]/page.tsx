@@ -10,6 +10,7 @@ import { formatDate } from '@/lib/formatDate'
 import 'katex/dist/katex.min.css';
 import style from '@/ui/styles/markdown-styles.module.css';
 import rehypeRaw from 'rehype-raw';
+import { remarkImageCaption } from '@/lib/remark-image-caption';
 
 
 export default function BlogPostPage() {
@@ -57,7 +58,7 @@ export default function BlogPostPage() {
         <article className={style.reactMarkDown}>
           <ReactMarkdown
             rehypePlugins={[rehypeKatex, rehypeRaw]}
-            remarkPlugins={[remarkMath, remarkGfm]}
+            remarkPlugins={[remarkMath, remarkGfm, remarkImageCaption]}
             // components={components}
           >
             {content}
