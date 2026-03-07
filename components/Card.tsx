@@ -5,13 +5,21 @@ type CardProps = {
   link?: string;
   accentColor?: string;
   children: React.ReactNode;
+  parallel?: React.ReactNode;
 };
 
-export default function Card({title, link, accentColor, children}: CardProps) {
+export default function Card({title, link, accentColor, children, parallel}: CardProps) {
   const content = (
     <>
-      <div className={`${geologica.className} flex flex-col font-semibold text-[24px] sm:text-[28px] md:text-[35px] mb-2 sm:mb-3`}>
-        {title}
+      <div className={`${geologica.className} flex flex-row items-start justify-between gap-3 font-semibold text-[24px] sm:text-[28px] md:text-[35px] leading-tight mb-2 sm:mb-3`}>
+        <div className="flex-1">
+          {title}
+        </div>
+        {parallel && (
+          <div className="shrink-0 self-start leading-none mt-2">
+            {parallel}
+          </div>
+        )}
       </div>
       <div className="text-[14px] sm:text-[15px] flex flex-col gap-2">
         {children}

@@ -1,6 +1,6 @@
 import { geologica } from "@/ui/fonts";
 import Card from "@/components/Card";
-import { SiObsidian } from "react-icons/si";
+import { FaFilePdf } from "react-icons/fa6";
 import { CustomLink } from "@/components/Links";
 export default function Project(){
   return (
@@ -15,6 +15,17 @@ export default function Project(){
             A CLI tool that streamlines resume management by automating version control, file organization, and git operations. Consolidates saving, naming, updating, and committing into one command -- built for people who keep track of multiple resume versions.
           </p>
         </Card>
+
+
+        <Card title="Duescope" link="https://github.com/suniyao/duescope">
+          <p>
+            Gradescope does not have an overview for when assignments will due and you have to click in every course, and I missed one assignments because of this?
+          </p>
+          <p>
+            Load this extension and never miss another assignment 🤓
+          </p>
+        </Card>
+
 
         <Card title="Prime Hunt" link="https://prime-hunt.vercel.app">
           <p>
@@ -37,7 +48,7 @@ export default function Project(){
           </p>
         </Card>
 
-        <Card title="FFT Music Note Extraction">
+        <Card title="FFT Music Note Extraction" parallel={<a href="/fft_music.pdf"><FaFilePdf size={40}/></a>}>
           <p>
             A project on extracting musical notes from audio as an improvement of direct Fourier transform, inspired by <CustomLink href="https://www.youtube.com/watch?v=rj9NOiFLxWA">Extract Musical Notes from Audio in Python with FFT</CustomLink> but with a better approach to determine the fundamental notes played
           </p>

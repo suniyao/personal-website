@@ -40,6 +40,12 @@
   margin-bottom: 2.5rem;
 }
 
+.reactMarkDown iframe[data-testid="embed-iframe"] {
+  display: block;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .reactMarkDown p {
   font-size: 18px;
   margin-top: 0.8em;
@@ -48,6 +54,23 @@
   font-style: normal;
   white-space: pre-wrap;
   font-family: 'Spectral','Cactus Classical Serif', serif;
+}
+
+.reactMarkDown a {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 4px;
+}
+
+.reactMarkDown a:hover {
+  text-decoration-style: wavy;
+}
+
+.reactMarkDown [data-footnote-ref],
+.reactMarkDown [data-footnote-backref],
+.reactMarkDown [data-footnote-ref]:hover,
+.reactMarkDown [data-footnote-backref]:hover {
+  text-decoration: none;
 }
 
 
