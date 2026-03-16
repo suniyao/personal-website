@@ -59,9 +59,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-6 sm:mt-10 lg:mt-45">
+          {/* <div className="mt-6 sm:mt-10 lg:mt-45">
             <SpotifyNowPlaying />
-          </div>
+          </div> */} 
         </div>
         
         {/* Image for Desktop Only */}
