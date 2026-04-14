@@ -229,8 +229,10 @@ export default function BlogPostPage() {
 
   if (!content) return <div className="text-center py-12">Loading...</div>;
 
+  const hasFootnotes = footnotes.size > 0;
+
   const articleShellClass = useBalancedLayout
-    ? `${style.articleShell} ${style.articleShellBalanced}`
+    ? `${style.articleShell} ${style.articleShellBalanced}${hasFootnotes ? ` ${style.articleShellBalancedWithFootnotes}` : ''}`
     : style.articleShell;
 
   return (

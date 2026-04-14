@@ -188,16 +188,20 @@
 
   .articleShellBalanced {
     --balanced-rail-gap: clamp(0.75rem, 1.6vw, 1.25rem);
-    --balanced-left-rail: 1.4fr;
-    --balanced-right-rail: 2.1fr;
     width: 100%;
     max-width: none;
     margin-left: 0;
     margin-right: 0;
-    grid-template-columns: var(--balanced-left-rail) 6fr var(--balanced-right-rail);
+    grid-template-columns: 2fr 6fr 2fr;
     column-gap: var(--balanced-rail-gap);
     padding-left: var(--balanced-rail-gap);
     padding-right: var(--balanced-rail-gap);
+  }
+
+  .articleShellBalancedWithFootnotes {
+    --balanced-left-rail: 1.4fr;
+    --balanced-right-rail: 2.1fr;
+    grid-template-columns: var(--balanced-left-rail) 6fr var(--balanced-right-rail);
   }
 
   .articleShellBalanced .postColumn {
