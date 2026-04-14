@@ -8,7 +8,7 @@ cover: "https://substack-post-media.s3.amazonaws.com/public/images/01a2b911-5d5b
 
 The first time I got a note in my envelope for 1-on-1, I opened it, hoping to see something wholesome. And then, I saw “Hi I was your intro-er. you seem so _badass_...”
 
-I was definitely frozen, feeling like I had just been pushed into an express to the north pole, or fallen into an ice hole with infinite depth. _What does it even mean by that “badass”??_ Congrats! Gained the first hater on the second day of camp! Definitely something that I dreamed of for the whole half year after receiving the acceptance sent by ASPR! Panicking, I handed the message to CL[^1] “Hi C, do you know what it means by saying ur badass?? Is it something like an asshole??” Thank god it’s a positive word, though I have no idea why bad and ass can combine to be a positive word (negative*negative = positive), erm actually here we use multiplication instead of addition for word meanings..? 🤓👆
+I was definitely frozen, feeling like I had just been pushed into an express to the north pole, or fallen into an ice hole with infinite depth. _What does it even mean by that “badass”??_ Congrats! Gained the first hater on the second day of camp! Definitely something that I dreamed of for the whole half year after receiving the acceptance sent by ASPR! Panicking, I handed the message to CL[^1] “Hi C, do you know what it means by saying ur badass?? Is it something like an asshole??” Thank god it’s a positive word, though I have no idea why bad and ass can combine to be a positive word (negative \* negative = positive), erm actually here we use multiplication instead of addition for word meanings..? 🤓👆
 
 Anyway, this is something funny on the first few days (I guess this is official Day 1 and I ghosted because I was scared thinking it was a negative word, the next day I asked CL and I later talked to CW on Day 3?? My brain is rusting)
 
@@ -38,7 +38,7 @@ I have been a slow burner for 17 1/12 years. Apparently I am bad at learning fro
 
 ![](https://substack-post-media.s3.amazonaws.com/public/images/282535a2-03a5-402b-8cbc-5a9ee2227f2c_1336x738.png "really like the concept of 結（むす）び musubi in Your Name.")
 
-Mom comforts me when I meet awful people by saying that people are like raindrops[14](https://stepyao.substack.com/p/gravityless-raindrops-on-the-window#footnote-14-148573217), sliding quickly down the window of life and they have nearly 0 impact on my life. But what if I really want you to stay in my life? I wish gravity didn't exist, so they could linger on my window longer. If that's not possible, then please, please, at least splash against the glass and reappear in my life. 再见, we shall meet again.
+Mom comforts me when I meet awful people by saying that people are like raindrops[^14], sliding quickly down the window of life and they have nearly 0 impact on my life. But what if I really want you to stay in my life? I wish gravity didn't exist, so they could linger on my window longer. If that's not possible, then please, please, at least splash against the glass and reappear in my life. 再见, we shall meet again.
 
 * * *
 

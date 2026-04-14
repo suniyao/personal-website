@@ -10,7 +10,7 @@ export default function Project(){
       </div>
       <div className="columns-1 md:columns-2 lg:columns-3 gap-6 sm:gap-8 md:gap-10 mt-6 sm:mt-8 md:mt-10 w-full">
 
-        <Card title="reslog [in dev 🚧]" link="https://github.com/suniyao/typst-resume-automator">
+        <Card title="reslog [🚧]" link="https://github.com/suniyao/typst-resume-automator">
           <p>
             A CLI tool that streamlines resume management by automating version control, file organization, and git operations. Consolidates saving, naming, updating, and committing into one command -- built for people who keep track of multiple resume versions.
           </p>
@@ -65,10 +65,10 @@ export default function Project(){
       </div>
 
       <div className={`${geologica.className} text-gray-400 flex flex-col font-semibold text-[30px] sm:text-[50px] md:text-[60px] lg:text-[80px] mt-15`}>
-        INACTIVE
+        ON ICE
       </div>
       <div className="columns-1 md:columns-2 lg:columns-3 gap-6 sm:gap-8 md:gap-10 mt-6 sm:mt-8 md:mt-10 w-full">
-        <Card title="PathTogether" link="https://github.com/suniyao/pathtogether">
+        <Card title="PathTogether" link="https://github.com/suniyao/pathtogether" inactive>
           <p>
             A web application used to make everyone stay connected after working together, whether as classmate or alumni, co-campers or online friends in the same server, by generating a common map session code and save everyone's location there after filling out.
           </p>

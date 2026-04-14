@@ -5,6 +5,31 @@
   margin-top: 1em;
 }
 
+.articleShell {
+  max-width: 48rem;
+}
+
+.desktopBleed {
+  width: 100%;
+}
+
+.postColumn {
+  max-width: 48rem;
+}
+
+.leftRailSpacer {
+  display: none;
+}
+
+.footnoteRail {
+  display: none;
+}
+
+.reactMarkDown::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .reactMarkDown h2 {
   font-family: 'Spectral', serif;
   font-size: 25px;
@@ -25,6 +50,7 @@
   margin-bottom: 0.35em;
   display: list-item;
   text-align: -webkit-match-parent;
+  position: relative;
 }
 
 .reactMarkDown img {
@@ -47,6 +73,7 @@
 }
 
 .reactMarkDown p {
+  color: #c8c8c8; /* post text */
   font-size: 18px;
   margin-top: 0.8em;
   margin-bottom: 0.8em;
@@ -54,6 +81,7 @@
   font-style: normal;
   white-space: pre-wrap;
   font-family: 'Spectral','Cactus Classical Serif', serif;
+  position: relative;
 }
 
 .reactMarkDown a {
@@ -75,7 +103,12 @@
 
 
 .reactMarkDown [data-footnote-ref] {
-  color: #9198a1;
+  color: #6b7280;
+  transition: color 0.2s ease;
+}
+
+.reactMarkDown [data-footnote-ref]:hover {
+  color: #9ca3af;
 }
 
 
@@ -126,11 +159,118 @@
 
 .reactMarkDown blockquote {
   border-left: 3px solid #bdbdbd;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
   padding-left: 20px;
 }
 
 .reactMarkDown hr {
   color: #dddddd;
+}
+
+.quickSidenote {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .articleShell {
+    max-width: 96rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: minmax(14rem, 21rem) minmax(0, 48rem) minmax(14rem, 21rem);
+    column-gap: clamp(1rem, 2.4vw, 2rem);
+    align-items: start;
+    justify-content: center;
+    padding-left: clamp(0.75rem, 2.5vw, 2rem);
+    padding-right: clamp(0.75rem, 2.5vw, 2rem);
+  }
+
+  .articleShellBalanced {
+    --balanced-rail-gap: clamp(0.75rem, 1.6vw, 1.25rem);
+    --balanced-left-rail: 1.4fr;
+    --balanced-right-rail: 2.1fr;
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+    grid-template-columns: var(--balanced-left-rail) 6fr var(--balanced-right-rail);
+    column-gap: var(--balanced-rail-gap);
+    padding-left: var(--balanced-rail-gap);
+    padding-right: var(--balanced-rail-gap);
+  }
+
+  .articleShellBalanced .postColumn {
+    max-width: none;
+    width: 100%;
+  }
+
+  .postColumn {
+    max-width: 48rem;
+    grid-column: 2;
+  }
+
+  .leftRailSpacer {
+    display: block;
+    grid-column: 1;
+  }
+
+  .footnoteRail {
+    display: block;
+    grid-column: 3;
+    position: sticky;
+    top: 1.5rem;
+    align-self: start;
+  }
+
+  .footnoteTrack {
+    position: relative;
+    min-height: 100%;
+  }
+
+  .footnoteRail .quickSidenote {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0rem 1.25rem;
+    border-left: 1px solid #999999;
+    background: #fff7ed;
+    color: #3f3f46;
+    font-family: 'Spectral','Cactus Classical Serif', serif;
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.55;
+    white-space: normal;
+    opacity: 0.6;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+    z-index: 1;
+  }
+
+  .footnoteRail .quickSidenoteActive {
+    opacity: 0.98;
+    transform: translateX(-4px);
+    z-index: 3;
+  }
+
+  .footnoteLabel {
+    margin-right: 0.35rem;
+    color: #6b7280;
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+
+  .reactMarkDown section[data-footnotes],
+  .reactMarkDown .footnotes {
+    display: none;
+  }
+
+  .desktopBleed {
+    position: relative;
+    left: 50%;
+    width: 100vw;
+    margin-left: -50vw;
+  }
 }
 
 /* For responsive design */
@@ -143,7 +283,10 @@
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
   .reactMarkDown [data-footnote-ref] {
-    color: #9198a1;
+    color: #9ca3af;
+  }
+  .reactMarkDown [data-footnote-ref]:hover {
+    color: #d1d5db;
   }
   .reactMarkDown [data-footnote-backref] {
     color: #888;
@@ -159,5 +302,17 @@
   }
   .reactMarkDown hr {
     color: #333333;
+  }
+}
+
+@media (min-width: 1025px) and (prefers-color-scheme: dark) {
+  .footnoteRail .quickSidenote {
+    border-color: #777777;
+    background: rgba(0, 0, 0, 0.08);
+    color: #e4e4e7;
+  }
+
+  .footnoteLabel {
+    color: #9ca3af;
   }
 }
