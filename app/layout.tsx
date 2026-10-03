@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/next"
 export const metadata: Metadata = {
   title: "Stephanie Yao",
   description: "personal website of Stephanie Yao, a math / design / building enjoyer.",
+  metadataBase: new URL("https://suniyao.github.io"),
 };
 
 export default function RootLayout({
