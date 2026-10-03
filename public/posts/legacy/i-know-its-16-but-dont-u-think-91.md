@@ -1,7 +1,7 @@
 ---
 title: "i know it's #16 but don't u think 91 is possible"
 subtitle: "had my first hackathon and successfully escaped from schoolwork for a whole week! ;) <!--inserted too many pics so sry this is too long also i have no idea why i forgot posting it after finishing -->"
-date: "2025-04-15"
+date: 2025-04-15
 cover: "https://substack-post-media.s3.amazonaws.com/public/images/68212a51-bb6a-415d-8ab4-be55535000fb_913x472.png"
 ---
 

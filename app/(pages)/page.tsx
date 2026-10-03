@@ -4,7 +4,6 @@ import PopUp from "@/components/PopUp";
 import { TypeAnimation } from "react-type-animation";
 import { CustomLink } from "@/components/Links";
 import Image from "next/image";
-import SpotifyNowPlaying from "@/components/SpotifyNowPlaying";
 import Socials from "@/components/Socials";
 export default function Home() {
   return (
@@ -59,9 +58,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* <div className="mt-6 sm:mt-10 lg:mt-45">
-            <SpotifyNowPlaying />
-          </div> */} 
         </div>
         
         {/* Image for Desktop Only */}

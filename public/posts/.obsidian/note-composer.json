@@ -1,0 +1,4 @@
+{
+  "askBeforeMerging": true,
+  "template": "legacy/example-update"
+}
