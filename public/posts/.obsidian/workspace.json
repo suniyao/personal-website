@@ -11,12 +11,14 @@
             "id": "ab135b1fb79a4724",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.13.7"
+                "file": "ross-24-reflection.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
+              "icon": "lucide-file",
+              "title": "ross-24-reflection"
             }
           }
         ]
@@ -186,15 +188,22 @@
   },
   "active": "ab135b1fb79a4724",
   "lastOpenFiles": [
+    "ross-23-reflection.md",
+    "gravityless-raindrops-on-the-window.md",
+    "convo-model.md",
+    "images/rhit-window.png",
+    "images/percopo.png",
+    "images/olin.png",
+    "images/group.png",
+    "images/game.png",
+    "images/galois.png",
+    "images/convo.png",
     "fft_music.pdf.md",
     "chord-29-overtone-41-notes-116.md",
-    "convo-model.md",
-    "gravityless-raindrops-on-the-window.md",
     "telegram-cloud-photo-size-5-6125183393931661695-x.jpg",
     "telegram-cloud-photo-size-5-6125183393931661579-x.jpg",
     "telegram-cloud-photo-size-5-6125183393931661580-y.jpg",
     "ross-24-reflection.md",
-    "ross-23-reflection.md",
     "first-yr-reflection.md",
     "Aurora DEX 15分钟 BTC 期权量化模型引擎进化里程碑.md",
     "Demo Meeting.md",

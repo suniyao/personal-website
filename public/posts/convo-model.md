@@ -1,8 +1,8 @@
 ---
 title: 耻问
 subtitle: on the geometry of conversations, friendship, and the cost of one's time
-date: 2026-05-24
-cover: ""
+date: "2026-05-24"
+cover: "/posts/images/convo.png"
 ---
 back in june, someone i didn't know got my wechat and asked me for college application advice — specifically how to include [non-trivial](https://www.non-trivial.org/) and [espr](https://espr.camp/) (which they'd just been accepted into) in their application.
 
