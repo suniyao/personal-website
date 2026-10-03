@@ -32,8 +32,8 @@ export default function Home() {
 
       
 
-      <div className="flex flex-col lg:flex-row gap-8 lg:gap-20">
-        <div className="w-full lg:w-1/2 text-[16px] sm:text-[18px] md:text-[20px]">
+      <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8 lg:gap-12">
+        <div className="w-full min-w-0 text-[16px] sm:text-[18px] md:text-[20px]">
           <div>
             <p>Hi! I'm Stephanie, currently a freshman at the University of California, Berkeley, interested in math, computer science, and physics. Thanks for stopping by!</p>
 
@@ -54,16 +54,16 @@ export default function Home() {
           {/* Image First on Mobile */}
           <div className="flex justify-center lg:hidden mb-6">
             <div className="relative cursor-pointer max-w-full w-full">
-              <Image src={"/image.png"} alt="sleepy kitty" width={500} height={400} className="rounded-lg w-full h-auto"/>
+              <Image src={"/image.png"} alt="sleepy kitty" width={500} height={500} className="rounded-lg w-full h-auto"/>
             </div>
           </div>
 
         </div>
         
         {/* Image for Desktop Only */}
-        <div className="hidden lg:flex justify-center lg:justify-end w-full lg:w-auto">
-          <div className="relative group lg:-top-45 cursor-pointer max-w-full w-full">
-            <Image src={"/image.png"} alt="sleepy kitty" width={500} height={400} className="rounded-lg w-full h-auto"/>
+        <div className="hidden lg:flex min-w-0 w-full justify-end">
+          <div className="relative group lg:-top-45 cursor-pointer w-full max-w-[500px]">
+            <Image src={"/image.png"} alt="sleepy kitty" width={500} height={500} className="rounded-lg w-full h-auto"/>
             {/* <Image 
               src={"/about.png"} 
               alt="on Brooklyn Bridge, photo taken on Jul 26, 2025" 
